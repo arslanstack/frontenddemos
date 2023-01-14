@@ -1,0 +1,25 @@
+// variables
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background: #fafafa;
+}
+$primary-color: #009fda;
+$secondary-color: #222222;
+$light-color: #ffffff;
+$primary-font: "Poppins", sans-serif;
+$secondary-font: "Montserrat", sans-serif;
+//@mixin
+@mixin border-style {
+	border-top: 2px solid #535353;
+	border-left: 2px solid #232323;
+	border-right: 2px solid #202020;
+	border-bottom: 2px solid #090909;
+}
+@mixin light-blue-border {
+	border-top: 2px solid #3cb5e3;
+	border-left: 2px solid #07a2db;
+	border-right: 2px solid #009cd6;
+	border-bottom: 2px solid #006488;
+}

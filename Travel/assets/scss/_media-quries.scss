@@ -1,0 +1,466 @@
+/*================================= 
+Media Queries Styling
+=================================*/
+@media screen and (min-width: 1200px) and (max-width: 1450px) {
+	#blog{
+		.offer-card {
+			top: -139px;
+			right: -13px;}
+			// .offer-card {
+				// 	top: -159px;
+				// 	right: -14px;
+				// }
+			}
+			
+		}
+		@media only screen and (max-width: 1025px) {
+			#about{
+				.travel-desc {
+					height: 409px !important;
+				}	
+			} 
+			#services{
+				.service-heading {
+					font-size:21px !important;
+				}
+				.service-card {
+					padding: 36px 18px;
+				}
+				
+			} 
+			#blog{
+				.blog-desc {
+					font-size: 14px;
+					letter-spacing: .5px;
+					line-height: 28px;}
+					
+					.bg-blog-banner{
+						padding: 50px;
+					}
+					.offer-card {
+						line-height: 24px;
+						width: 153px;
+						top: -99px;
+						right: -7px;
+						padding: 17px 14px 14px 46px;}
+						
+					}
+					#contact{
+						.contact-info-text {
+							font-size: 20px;
+						}
+						
+					}
+					#footer::after{
+						content: '';
+						bottom: 0 !important;
+					}
+					
+				}
+				@media screen and (max-width: 950px) and (min-width: 800px) {
+					.navbar-toggler {
+						border: 2px solid #ffffff;
+					}
+					#about .travel-desc {
+						height: 250px !important;
+					}
+					.travel-bg {
+						border: 1px solid $secondary-color !important;
+						border-bottom: 0 !important;
+					}
+					#services{
+						.service-card {
+							padding: 37px 38px;
+						}
+					}
+					#blog{
+						.offer-card {
+							top: -132px;
+							right: -10px;
+						}}
+					}
+					@media screen and (max-width: 768px) and (min-width: 500px) {
+						.navbar-toggler {
+							border: 2px solid #ffffff;
+						}
+						#about {
+							.travel-desc {
+								font-size: 17px;
+							}
+							.travel-desc {
+								height: 261px !important;
+							}
+							.travel-bg {
+								border: 1px solid $secondary-color !important;
+								border-bottom: 0 !important;
+							}
+						}
+						
+						.media-padding {
+							padding: 0 10px !important;
+						}
+						
+						#services{
+							.service-card {
+								padding: 36px 38px;
+							}
+						}
+						#blog{
+							.offer-card {
+								top: -116px;
+								right: -11px;
+							}
+							.blog-desc{
+								font-size: 16px;
+							}
+							
+							
+						}
+						#contact{
+							.contact-bg-color {
+								padding: 30px 34px;
+							} .footer-font {
+								font-size: 18px;}
+							}
+						}
+						@media screen and (max-width: 480px) and (min-width: 400px) {
+							.navbar-toggler {
+								border: 2px solid #fff;
+							}
+							
+							#about .travel-bg {
+								padding: 44px 16px 16px 19px;
+							}
+							#home .owl-theme .owl-dots .owl-dot {
+								display: inline-block;
+								zoom: 1;
+							}
+							#home .owl-theme .owl-dots .owl-dot span {
+								margin: 12px 11px 11px 10px;
+							}
+							#home .home-banner-img {
+								background-position: center;
+							}
+							#home .owl-theme .owl-nav.disabled + .owl-dots {
+								right: 30%;
+								top: unset;
+								bottom: 25px;
+							}
+							%btn-shared {
+								width: 175px;
+								height: 62px;
+								font-size: 20px;
+								line-height: 48px;
+							}
+							#home .content-setting {
+								padding: 143px 0 133px 0;
+							}
+							.media-content-center {
+								justify-content: center;
+							}
+							#about .travel-desc {
+								font-size: 17px;
+								height: 330px !important;
+							}
+							.media-padding {
+								padding: 0 10px !important;
+							}
+							#blog{
+								.bg-blog-banner {
+									padding: 10px;
+								}.blog-desc {
+									font-size: 20px;
+									letter-spacing: .5px;
+									line-height: 33px;
+								}
+								.offer-card {
+									top: -130px;
+									right: -12px;
+									padding: 17px 14px 14px 54px;
+								}
+							}
+							#contact{
+								.contact-bg-color {
+									padding: 30px 34px;
+								} .footer-font {
+									font-size: 18px;}
+								}
+							}
+							@media screen and (max-width: 398px) {
+								.navbar-toggler {
+									border: 2px solid #ffffff;
+								}
+								#home .owl-theme .owl-dots .owl-dot {
+									display: inline-block;
+									zoom: 1;
+								}
+								#home .owl-theme .owl-dots .owl-dot span {
+									margin: 12px 11px 11px 10px;
+								}
+								#home .home-banner-img {
+									background-position: center;
+								}
+								#home .owl-theme .owl-nav.disabled + .owl-dots {
+									right: 30%;
+									top: unset;
+									bottom: 25px;
+								}
+								%btn-shared {
+									width: 149px;
+									height: 55px;
+									font-size: 20px;
+									line-height: 44px;
+									font-size: 18px;
+								}
+								#home .content-setting {
+									padding: 143px 0 133px 0;
+								}
+								.media-content-center {
+									justify-content: center;
+								}
+								#about .travel-desc {
+									font-size: 17px;
+									height: 401px !important;
+								}
+								.media-padding {
+									padding: 0 10px !important;
+								}
+								.travel-bg {
+									border: 1px solid $secondary-color !important;
+									border-bottom: 0 !important;
+								}
+								#blog{
+									.bg-blog-banner{
+										padding: 8px;
+									}
+									.offer-card {
+										display: flex;
+										justify-content: center;
+										align-items: center;
+										padding: unset;
+										height: 40px;
+										top: -148px;
+										right: -11px;
+									}
+								}#contact{
+									.contact-bg-color {
+										padding: 30px 34px;
+									} .footer-font {
+										font-size: 18px;}
+									}
+								}
+								@media screen and (max-width: 360px) {
+									.navbar-toggler {
+										border: 2px solid #ffffff;
+									}
+									#home .owl-theme .owl-dots .owl-dot {
+										display: inline-block;
+										zoom: 1;
+									}
+									#home .owl-theme .owl-dots .owl-dot span {
+										margin: 12px 11px 11px 10px;
+									}
+									#home .home-banner-img {
+										background-position: center;
+									}
+									#home .owl-theme .owl-nav.disabled + .owl-dots {
+										right: 30%;
+										top: unset;
+										bottom: 25px;
+									}
+									%btn-shared {
+										width: 149px;
+										height: 55px;
+										font-size: 20px;
+										line-height: 44px;
+										font-size: 18px;
+									}
+									#home .content-setting {
+										padding: 143px 0 133px 0;
+									}
+									.media-content-center {
+										justify-content: center;
+									}
+									#about .travel-desc {
+										font-size: 17px;
+										height: 401px !important;
+									}
+									.media-padding {
+										padding: 0 10px !important;
+									}
+									.travel-bg {
+										border: 1px solid $secondary-color !important;
+										border-bottom: 0 !important;
+									}
+									#blog{
+										.bg-blog-banner{
+											padding: 8px;
+										}
+										.offer-card {
+											width: 140px;
+											top: -126px;
+											right: -11px;
+										}
+									}
+								}
+								/*==================== Media Query For Land Scape Mode =====================*/
+								@media only screen and (max-width: 1367px) and (orientation: landscape) {
+									#blog{
+										.blog-desc {
+											font-size: 18px;
+											line-height: 33px;
+										}	
+									} 
+									#footer::after {
+										content: '';
+										bottom: 0px !important;
+										
+									}
+								}
+								@media only screen and (max-width: 1280px) and (orientation: landscape) {
+								}
+								@media only screen and (max-width: 1024px) and (orientation: landscape) {
+									#blog{
+										.blog-desc {
+											font-size: 14px;
+											letter-spacing: .5px;
+											line-height: 28px;}
+											
+											.bg-blog-banner{
+												padding: 50px;
+											}
+											.offer-card {
+												line-height: 24px;
+												width: 153px;
+												top: -99px;
+												right: -8px;
+												padding: 17px 14px 14px 46px;}
+												
+											}
+										}
+										@media only screen and (max-width: 830px) and (min-width: 800px) and (orientation: landscape) {
+											.navbar-toggler {
+												border: 2px solid #fff;
+											}
+											#home{
+												.owl-theme .owl-dots .owl-dot {
+													display: inline-block;
+													zoom: 1;
+												}
+												.owl-theme .owl-dots .owl-dot span {
+													margin: 12px 11px 11px 10px;
+												}
+												.home-banner-img {
+													background-position: center;
+												} 
+												.owl-theme .owl-nav.disabled + .owl-dots {
+													right: 38%;
+													top: unset;
+													bottom: 25px;
+												}
+											}
+											
+											#about .travel-desc {
+												height: 249px !important;
+											}
+											.travel-bg {
+												border: 1px solid $secondary-color !important;
+												border-bottom: 0 !important;
+											}
+											#services{
+												.service-card {
+													padding: 36px 38px;
+												}
+											}
+											#blog{
+												.offer-card {
+													top: -141px;
+													right: -11px;
+												}
+											}
+											#contact{
+												.contact-bg-color {
+													padding: 30px 34px;
+												} .footer-font {
+													font-size: 18px;}
+												}
+											}
+											@media only screen and (max-width: 760px) and(min-width:700px) and (orientation: landscape) {
+												#home .owl-theme .owl-dots .owl-dot {
+													display: inline-block;
+													zoom: 1;
+												}
+												#home .owl-theme .owl-dots .owl-dot span {
+													margin: 12px 11px 11px 10px;
+												}
+												#home .home-banner-img {
+													background-position: center;
+												}
+												#home .owl-theme .owl-nav.disabled + .owl-dots {
+													right: 38%;
+													top: unset;
+													bottom: 25px;
+												}
+												#about .travel-desc {
+													height: 339px !important;
+												}
+												.travel-bg {
+													border: 1px solid $secondary-color !important;
+													border-bottom: 0 !important;
+												}
+												#blog{
+													.zoom-overlay{
+														margin-left: auto;
+														margin-right: auto;
+													}
+													.offer-card {
+														right: -19px;
+													}}
+													#contact{
+														.contact-bg-color {
+															padding: 30px 34px;
+														} .footer-font {
+															font-size: 18px;}
+														}
+													}
+													@media only screen and (max-width: 696px) and (min-width: 600px) and (orientation: landscape) {
+														#home .owl-theme .owl-dots .owl-dot {
+															display: inline-block;
+															zoom: 1;
+														}
+														
+														#home .owl-theme .owl-dots .owl-dot span {
+															margin: 12px 11px 11px 10px;
+														}
+														#home .home-banner-img {
+															background-position: center;
+														}
+														#home .owl-theme .owl-nav.disabled + .owl-dots {
+															right: 38%;
+															top: unset;
+															bottom: 25px;
+														}
+														#about .travel-desc {
+															height: 261px !important;
+														}
+														.travel-bg {
+															border: 1px solid $secondary-color !important;
+															border-bottom: 0 !important;
+														}
+														#blog{
+															.zoom-overlay{
+																margin-left: auto;
+																margin-right: auto;
+															}
+															.offer-card {
+																right: -19px;
+															}
+														}
+														#contact{
+															.contact-bg-color {
+																padding: 30px 34px;
+															} .footer-font {
+																font-size: 18px;}
+															}
+														}
+														

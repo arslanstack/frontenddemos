@@ -1,0 +1,41 @@
+#places {
+	.containing {
+		position: relative;
+		width: 100%;
+	}
+
+	.image {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.overlay-me {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: rgba(29, 29, 29, 0.702);
+
+		overflow: hidden;
+		width: 100%;
+		height: 0;
+		transition: 0.5s ease;
+	}
+
+	.containing:hover .overlay-me {
+		height: 100%;
+	}
+
+	.text {
+		color: white;
+		font-size: 20px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
+}

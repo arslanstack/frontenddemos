@@ -1,0 +1,40 @@
+#courses {
+	.course-card {
+		padding: 45px 26px 30px 26px;
+		border-radius: 5px;
+		text-align: center;
+		border: 1px solid rgb(230, 230, 230);
+		background: $light-color;
+		box-shadow: 10px 17.321px 30px 0px rgba(0, 159, 218, 0.35);
+		&:hover .course-heading {
+			color: $primary-color;
+		}
+	}
+	.course-heading {
+		font-size: 18px;
+		color: $secondary-color;
+		font-weight: 600;
+		text-transform: uppercase;
+		font-family: $secondary-font;
+	}
+	.no-display {
+		display: none;
+	}
+	%commen-btn {
+		width: 230px;
+		height: 73px;
+		// line-height: 55p
+		font-size: 20px;
+		color: $light-color;
+		font-weight: 500;
+		text-transform: uppercase;
+		font-family: $secondary-font;
+		border-radius: 36px;
+		background-color: rgb(0, 159, 218);
+		box-shadow: 0.105px 2.998px 1px 0px rgba(0, 0, 0, 0.5);
+	}
+
+	.btn-load-more {
+		@extend %commen-btn;
+	}
+}

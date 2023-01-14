@@ -1,0 +1,2809 @@
+﻿/*====================== Font Families =======================*/
+
+
+/*==================== Font Families Area =====================*/
+
+
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background-color: #ffffff;
+    color: inherit;
+    border: none;
+    padding: 13px !important;
+    font: inherit;
+    margin: 10px;
+    position: relative;
+    top: -105px;
+    height: 100px;
+    width: 80px;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background-color: #ffffff;
+    color: inherit;
+    border: none;
+    padding: 0px !important;
+    font: inherit;
+    margin: 10px;
+    position: relative;
+    top: -72px;
+    height: 60px;
+    width: 95px;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    margin-left: 0;
+    color: #e31f3b;
+    font-size: 40px;
+}
+
+#navid .container {
+    padding-right: 0px;
+}
+
+.nav-tabs-color {
+    background-color: #e31f3b;
+    color: #ffffff !important;
+}
+
+    .nav-tabs-color .img-white {
+        display: inline-block;
+    }
+
+    .nav-tabs-color .img-red {
+        display: none;
+    }
+    /*.nav-tabs-color:hover .img-red {
+        display: none;
+    }*/
+
+    .nav-tabs-color p {
+        color: #ffffff;
+    }
+
+.list-group-item-action:hover .img-white {
+    display: inline-block;
+}
+
+.list-group-item-action:hover .img-red {
+    display: none;
+}
+
+.list-group-item-action:hover p {
+    color: #ffffff;
+}
+
+.list-group-item-action:hover, .list-group-item-action:focus {
+    color: #ffffff !important;
+    text-decoration: none;
+    background-color: #e31f3b;
+    display: inline-block
+}
+
+.img-red {
+    display: inline-block;
+}
+
+.img-white {
+    display: none;
+}
+/*.slick-track {
+    transform: translate3d(-1152px, -5px, 0px) !important;
+}*/
+/*==================== Header Styling =====================*/
+#header-bg-color {
+    background-color: #f3f3f3;
+    width: 100%;
+    height: auto;
+}
+
+.custom-padding {
+    padding: 33px 0px;
+}
+
+.text-one {
+    font-size: 30px;
+    color: #323232;
+    font-weight: bold;
+    font-family: 'FontsFree-Net-Proxima-Nova-Bold (1)';
+}
+
+.text-two {
+    color: #e31f3b;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'ProximaNova-Regular';
+}
+
+.logo-desc {
+    color: #838383;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    font-family: 'ProximaNova-Regular';
+}
+
+.mail-text {
+    font-size: 13px;
+    color: #838383;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-family: 'ProximaNova-Regular';
+}
+
+.mail-desc {
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'FontsFree-Net-Proxima-Nova-Bold (1)';
+}
+/*==================== Nav Bar Styling =====================*/
+.nav-item {
+    padding: 0 2px;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 0rem;
+}
+
+.link-style {
+    text-decoration: none;
+    color: #0b0b0b;
+}
+
+    .link-style:hover {
+        text-decoration: none;
+        color: #0b0b0b;
+    }
+
+.nav-link {
+    padding-left: 40px;
+    font-size: 20px;
+    color: #444444;
+    font-family: 'Proxima Nova Semibold';
+}
+
+.active-me {
+    font-size: 20px;
+    color: #fff;
+    background-color: #ff5b62 !important;
+    font-weight: bold;
+    font-family: 'FontsFree-Net-Proxima-Nova-Bold (1)';
+}
+
+.nav-padding {
+    padding: 0px 40px;
+}
+
+.nav-link:hover, .nav-link:focus {
+    text-decoration: none;
+    color: white;
+    background-color: #ff5b62 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.btn-dangers {
+    width: 175px;
+    height: 52px;
+    color: #fff;
+    line-height: 40px;
+    text-transform: uppercase;
+    background-color: #e31f3b;
+    font-family: 'FontsFree-Net-Proxima-Nova-Bold (1)';
+}
+
+    .btn-dangers:hover {
+        color: #fff;
+    }
+
+.comments-space {
+    width: 100%;
+    min-height: 50px;
+    text-align: justify;
+}
+
+.remaining-contents span {
+    display: none;
+}
+/*==================== main section Styling =====================*/
+#main-banner {
+    background-size: cover;
+    background-position: center;
+    padding: 130px 185px;
+}
+
+.btn-contact {
+    width: 196px;
+    height: 56px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 43px;
+    background-color: #e31f3b;
+    text-transform: uppercase;
+    font-family: 'gotham-pro-medium';
+}
+
+    .btn-contact:hover {
+        color: #fff;
+    }
+
+.main-text {
+    color: #000000;
+    font-size: 54px;
+    font-family: 'gotham-pro-bold-58eb5aca95df6';
+}
+
+.color-bg {
+    color: #ffffff;
+    padding: 10px 28px;
+    font-size: 45px;
+    text-transform: uppercase;
+    background-color: rgba(227, 31, 59, 0.8);
+    opacity: 0.8;
+    font-family: 'gotham-pro-bold-58eb5aca95df6';
+}
+
+.main-desc {
+    color: #272320;
+    font-size: 20px;
+    font-family: 'gotham-pro-medium';
+}
+/**/
+#slider-section {
+    padding: 95px 110px 0px 110px;
+    background-color: #f3f3f3;
+    width: 100%;
+    height: auto;
+}
+
+.chosse-font {
+    color: #222222;
+    font-size: 22px;
+    font-family: 'gotham-pro-bold-58eb5aca95df6';
+}
+
+.chosse-sub-desc {
+    color: #505050;
+    font-size: 16px;
+    font-family: 'gotham-pro-medium';
+}
+
+.chosse-desc {
+    color: #828282;
+    font-size: 14px;
+    font-family: 'ProximaNova-Regular';
+}
+/*==================== main section Styling =====================*/
+#counter-section {
+    padding: 100px 0px 100px 0px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.count-no {
+    color: #fff;
+    font-size: 60px;
+    font-family: 'gotham-pro-bold-58eb5aca95df6';
+}
+
+.count-text {
+    font-size: 26px;
+    color: #ffffff;
+    font-family: 'gotham-pro-medium';
+}
+/*==================== Department section Styling =====================*/
+.list-group-item {
+    padding: 1.04rem 1.25rem;
+}
+
+.btn-more {
+    height: 60px;
+    width: 100%;
+    font-size: 22px;
+    color: #3c3c3c;
+    background-color: #acacac;
+    font-family: 'gotham-pro-medium';
+}
+
+.dep-text {
+    font-size: 40px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'gotham-pro-bold-58eb5aca95df6';
+}
+
+.dep-desc {
+    font-size: 16px;
+    color: #000000;
+    font-family: 'gotham-pro-medium';
+}
+
+.dep-padding {
+    padding: 50px 130px;
+}
+
+.dep-cate-text {
+    color: #828282;
+    font-size: 20px;
+    font-family: 'gotham-pro-medium';
+}
+
+.more {
+    display: block;
+    padding: 0.75rem 1.25rem;
+    font-size: 22px;
+    color: #3c3c3c;
+    background-color: #acacac;
+    font-family: 'gotham-pro-medium';
+}
+
+.list-group-item {
+    border: 2px solid #acacac;
+}
+
+.dep-border {
+    padding: 20px;
+    border: 2px solid #acacac;
+}
+
+.below-line {
+    line-height: 2em;
+    position: relative;
+}
+
+    .below-line:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 20%;
+        border: 2px solid #e31f3b;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    }
+
+.otho-text {
+    color: #2b2b2b;
+    font-size: 30px;
+    font-family: 'gotham-pro-medium';
+}
+
+.otho-desc {
+    color: #4c4c4c;
+    font-size: 18px;
+    font-family: 'gotham-pro-medium';
+}
+
+.heading-text {
+    margin-bottom: 7px;
+    color: #575757;
+    font-size: 17px;
+    font-family: 'gotham-pro-medium';
+}
+
+.btn-contact-us {
+    width: 185px;
+    height: 50px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 37px;
+    border-radius: 35px;
+    text-transform: uppercase;
+    background-color: #e31f3b;
+    font-family: 'gotham-pro-bold-58eb5aca95df6';
+}
+
+    .btn-contact-us:hover {
+        color: #fff;
+    }
+/*==================== Reservation section Styling =====================*/
+#left-section {
+    width: 100%;
+    height: 500px;
+    background-color: #e31f3b;
+}
+
+.left-section-padding {
+    padding: 80px 60px;
+}
+
+.ser-text {
+    color: #fff;
+    font-size: 25px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    font-family: 'gotham-pro-bold-58eb5aca95df6';
+}
+
+.ser-desc {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'gotham-pro-regular-58eb5afa47dbe';
+}
+
+.btn-contact-white {
+    width: 185px;
+    height: 50px;
+    color: #000000;
+    font-size: 16px;
+    line-height: 37px;
+    border-radius: 35px;
+    text-transform: uppercase;
+    background-color: #fff;
+    font-family: 'gotham-pro-bold-58eb5aca95df6';
+}
+
+    .btn-contact-white:hover {
+        color: #000000;
+    }
+
+#right-section {
+    width: 100%;
+    height: 500px;
+    background-color: #f38b9a;
+}
+
+.right-section-padding {
+    padding: 40px 60px;
+}
+
+::placeholder {
+    color: #aaaaaa !important;
+    font-size: 16px !important;
+    font-family: 'gotham-pro-medium' !important;
+}
+
+option:first-child {
+    color: #aaaaaa;
+    font-size: 18px;
+    font-family: 'gotham-pro-medium';
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 0;
+    transition: none;
+}
+
+.btn-submit {
+    width: 160px;
+    height: 50px;
+    color: #fff;
+    font-size: 15px;
+    background-color: #000000;
+    font-family: 'gotham-pro-medium';
+}
+
+.register-text {
+    color: #3a2c2d;
+    font-size: 30px;
+    font-family: 'gotham-pro-bold-58eb5aca95df6';
+}
+/*==================== Gallery section Styling =====================*/
+.gallery-text {
+    color: #000000;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'gotham-pro-bold-58eb5aca95df6';
+}
+
+.gallery-desc {
+    color: #5c5c5c;
+    font-size: 16px;
+    font-family: 'gotham-pro-medium';
+}
+
+.gallery-padding {
+    padding: 55px 110px;
+}
+/*==================== Doctor section Styling =====================*/
+#doctors {
+    width: 100%;
+    height: auto;
+    padding: 85px 100px;
+    background-color: #f5f5f5;
+}
+
+.doc-text {
+    color: #000000;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'gotham-pro-bold-58eb5aca95df6';
+}
+
+.doc-desc {
+    color: #585858;
+    font-size: 15px;
+    font-family: 'gotham-pro-medium';
+}
+
+.doc-name {
+    color: #e31f3b;
+    font-size: 20px;
+    font-family: 'gotham-pro-medium';
+}
+
+.card {
+    border: none;
+    border-radius: 0px;
+}
+
+.card-title {
+    color: #e31f3b;
+    font-size: 20px;
+    font-family: 'gotham-pro-medium';
+}
+
+.card-text {
+    color: #7a7a7a;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'gotham-pro-medium';
+}
+
+.card-shadow {
+    -webkit-box-shadow: 10px 10px 13px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 13px -12px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 13px -12px rgba(0,0,0,0.75);
+}
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+    padding: 30px 0;
+}
+
+.slick-dots {
+    bottom: 28px;
+}
+
+    .slick-dots li.slick-active button:before {
+        color: #e31f3b;
+    }
+
+    .slick-dots li button:before {
+        font-size: 44px;
+        top: 42px;
+        color: #b8b8b8;
+    }
+
+.slick-slide {
+    margin: 0 15px;
+}
+/*==================== Doctor section Styling =====================*/
+
+#touch-section {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.touch-text {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.label-text {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'gotham-pro-medium';
+}
+
+.text-box {
+    width: 100%;
+    height: 52px;
+    color: #000000;
+    border: 1px solid #464949;
+    border-radius: 4px;
+    padding: 10px;
+    background: transparent;
+}
+
+.textarea-box {
+    width: 100%;
+    height: auto;
+    color: #000000;
+    border: 1px solid #464949;
+    border-radius: 4px;
+    padding: 10px;
+    background: transparent;
+}
+
+.btn-submit-con {
+    width: 150px;
+    height: 53px;
+    font-size: 18px;
+    color: #000000;
+    border: 2px solid #3e4244;
+    background: transparent;
+    font-family: 'gotham-pro-bold-58eb5aca95df6';
+}
+
+.page-footer {
+    width: 100%;
+    height: auto;
+    background-color: #0b0b0b;
+}
+
+.footer-font {
+    font-size: 22px;
+    padding-top: 22px;
+    font-family: 'gotham-pro-medium';
+    font-weight: 300;
+    left: 20%;
+}
+
+.footer-text-color {
+    color: #929292;
+}
+
+.social {
+    text-decoration: none;
+    color: white;
+}
+
+    .social:hover {
+        text-decoration: none;
+        color: white;
+    }
+/*==========OverLay Styling==========*/
+.content {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+    .content .content-overlay {
+        border: 20px solid rgb(227, 31, 59);
+        background-color: rgba(227, 31, 59, 0.8);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        -webkit-transition: all 0.4s ease-in-out 0s;
+        -moz-transition: all 0.4s ease-in-out 0s;
+        transition: all 0.4s ease-in-out 0s;
+    }
+
+
+    .content:hover .content-overlay {
+        opacity: 1;
+    }
+
+.content-image {
+    width: 100%;
+}
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+
+.content-details p {
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    font-family: 'gotham-pro-bold-58eb5aca95df6';
+}
+
+.fadeIn-bottom {
+    top: 80%;
+}
+
+.fadeIn-top {
+    top: 20%;
+}
+
+.fadeIn-left {
+    left: 20%;
+}
+
+
+.fadeIn-right {
+    left: 80%;
+}
+/*=================== Custome Margins ===================*/
+.mt-300 {
+    margin-top: 300px;
+}
+
+.mt-290 {
+    margin-top: 290px;
+}
+
+.mt-280 {
+    margin-top: 280px;
+}
+
+.mt-270 {
+    margin-top: 270px;
+}
+
+.mt-260 {
+    margin-top: 260px;
+}
+
+.mt-250 {
+    margin-top: 250px;
+}
+
+.mt-240 {
+    margin-top: 240px;
+}
+
+.mt-230 {
+    margin-top: 230px;
+}
+
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mt-180 {
+    margin-top: 180px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mt-140 {
+    margin-top: 140px;
+}
+
+.mt-120 {
+    margin-top: 120px;
+}
+
+.mt-115 {
+    margin-top: 115px;
+}
+
+.mt-110 {
+    margin-top: 110px;
+}
+
+.mt-108 {
+    margin-top: 108px;
+}
+
+.mt-106 {
+    margin-top: 106px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-99 {
+    margin-top: 99px;
+}
+
+.mt-95 {
+    margin-top: 95px;
+}
+
+.mt-94 {
+    margin-top: 94px;
+}
+
+.mt-89 {
+    margin-top: 89px;
+}
+
+.mt-88 {
+    margin-top: 88px;
+}
+
+.mt-87 {
+    margin-top: 87px;
+}
+
+.mt-86 {
+    margin-top: 86px;
+}
+
+.mt-85 {
+    margin-top: 85px;
+}
+
+.mt-84 {
+    margin-top: 84px;
+}
+
+.mt-83 {
+    margin-top: 83px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mt-65 {
+    margin-top: 65px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-55 {
+    margin-top: 55px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-48 {
+    margin-top: 48px;
+}
+
+.mt-45 {
+    margin-top: 45px;
+}
+
+.mt-44 {
+    margin-top: 44px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-38 {
+    margin-top: 38px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.mt-34 {
+    margin-top: 34px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-27 {
+    margin-top: 27px;
+}
+
+.mt-26 {
+    margin-top: 26px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+/*=========== Margin Bottom ===========*/
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-110 {
+    margin-bottom: 110px;
+}
+
+.mb-160 {
+    margin-bottom: 160px;
+}
+
+.b-50 {
+    bottom: 50px;
+}
+
+.b-30 {
+    bottom: 30px;
+}
+/*================ Margin-Left ===================*/
+.ml-23 {
+    margin-left: 23px;
+}
+
+.ml-77 {
+    margin-left: 77%;
+}
+/*================ Padding-Top ===================*/
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.h-17 {
+    height: 17%;
+}
+
+
+/*======= Some Commen Styling ======*/
+button:focus {
+    outline: none;
+    outline: none;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-load-more {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    background-color: #e31f3b;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 200px;
+    height: 65px;
+    font-family: 'gotham-pro-bold-58eb5aca95df6';
+    font-weight: bold;
+}
+
+    .btn-load-more:hover {
+        background-color: #e31f3b;
+    }
+
+.left-text {
+    text-align: left;
+}
+
+.mail-to-hos {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+    .mail-to-hos:hover {
+        text-decoration: none;
+        color: #4a4a4a;
+    }
+
+.mail-to-style {
+    text-decoration: none;
+    color: #000000;
+}
+
+    .mail-to-style:hover {
+        text-decoration: none;
+        color: #000000;
+    }
+
+.btn-r-0 {
+    border-radius: 0px;
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.list-group-item-action {
+    cursor: pointer !important;
+}
+/*================ Media Query ===============*/
+@media screen and (max-width: 1024px) {
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        background-color: #ffffff;
+        color: inherit;
+        border: none;
+        padding: 1px !important;
+        font: inherit;
+        margin: 10px;
+        position: relative;
+        top: -72px;
+        height: 60px;
+        width: 80px;
+    }
+
+    .mail-text {
+        font-size: 10px;
+    }
+
+    .mail-desc {
+        font-size: 9px;
+    }
+
+    .dep-cate-text {
+        font-size: 15px;
+    }
+
+    .count-text {
+        font-size: 21px;
+    }
+
+    .custom-padding {
+        padding: 16px 30px;
+    }
+
+
+
+    .nav-padding {
+        padding: 0px;
+    }
+
+    .active-me {
+        width: 100%;
+    }
+
+    .card-title {
+        font-size: 13px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+
+
+    .custom-padding {
+        padding: 16px 30px;
+    }
+
+    #main-banner {
+        padding: 30px 20px;
+    }
+
+
+    .main-text {
+        font-size: 32px;
+    }
+
+    .color-bg {
+        font-size: 23px;
+    }
+
+    .main-desc {
+        font-size: 16px;
+    }
+
+    #slider-section {
+        padding: 60px 10px 0px 10px;
+    }
+
+    .chosse-font {
+        font-size: 15px;
+    }
+
+    .chosse-sub-desc {
+        font-size: 14px;
+    }
+
+    .chosse-desc {
+        font-size: 13px;
+    }
+
+    .dep-text {
+        font-size: 28px;
+    }
+
+    .dep-desc {
+        font-size: 15px;
+    }
+
+    .dep-padding {
+        padding: 45px 20px;
+    }
+
+    .ser-text {
+        font-size: 19px;
+    }
+
+    .ser-desc {
+        font-size: 15px;
+    }
+
+    .left-section-padding {
+        padding: 40px 30px;
+    }
+
+    #left-section {
+        height: 455px;
+    }
+
+    #right-section {
+        height: 455px;
+    }
+
+    .register-text {
+        font-size: 25px;
+    }
+
+    .right-section-padding {
+        padding: 20px 25px;
+    }
+
+    .media-mt-40 {
+        margin-top: 40px;
+    }
+
+    .gallery-text {
+        font-size: 28px;
+    }
+
+    .gallery-desc {
+        font-size: 15px;
+    }
+
+    .gallery-padding {
+        padding: 15px 20px;
+    }
+
+    #doctors {
+        padding: 63px 15px 20px 15px;
+    }
+
+    .doc-text {
+        font-size: 24px;
+    }
+
+    .doc-desc {
+        font-size: 15px;
+    }
+
+    #touch-section {
+        padding: 55px 15px;
+    }
+
+    .footer-font {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .d-none {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .custom-padding {
+        padding: 16px 30px;
+    }
+
+    .media-justify {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .d-none {
+        display: block !important;
+    }
+
+    .media-justify {
+        justify-content: center !important;
+    }
+
+    .media-align {
+        text-align: center;
+    }
+
+    .media-mt {
+        margin-top: 30px;
+    }
+
+    .custom-padding {
+        padding: 16px 30px;
+    }
+
+    .active-me {
+        width: 18%;
+    }
+
+    #main-banner {
+        padding: 30px 20px;
+    }
+
+
+
+    .main-text {
+        font-size: 32px;
+    }
+
+    .color-bg {
+        font-size: 23px;
+    }
+
+    .main-desc {
+        font-size: 16px;
+    }
+
+    #slider-section {
+        padding: 60px 10px 0px 10px;
+    }
+
+    .chosse-font {
+        font-size: 15px;
+    }
+
+    .chosse-sub-desc {
+        font-size: 14px;
+    }
+
+    .chosse-desc {
+        font-size: 12px;
+    }
+
+    .dep-text {
+        font-size: 28px;
+    }
+
+    .dep-desc {
+        font-size: 15px;
+    }
+
+    .dep-padding {
+        padding: 45px 20px;
+    }
+
+    .ser-text {
+        font-size: 19px;
+    }
+
+    .ser-desc {
+        font-size: 15px;
+    }
+
+    .left-section-padding {
+        padding: 40px 30px;
+    }
+
+    #left-section {
+        height: 300px;
+    }
+
+    #right-section {
+        height: 460px;
+    }
+
+    .register-text {
+        font-size: 25px;
+    }
+
+    .right-section-padding {
+        padding: 20px 25px;
+    }
+
+    .media-mt-40 {
+        margin-top: 40px;
+    }
+
+    .gallery-text {
+        font-size: 28px;
+    }
+
+    .gallery-desc {
+        font-size: 15px;
+    }
+
+    .gallery-padding {
+        padding: 15px 20px;
+    }
+
+    #doctors {
+        padding: 20px 15px 100px 15px;
+    }
+
+    .card-title {
+        font-size: 17px;
+    }
+
+    .card-text {
+        font-size: 17px;
+    }
+
+    .doc-text {
+        font-size: 24px;
+    }
+
+    .doc-desc {
+        font-size: 15px;
+    }
+
+    #touch-section {
+        padding: 55px 15px;
+    }
+
+    .footer-font {
+        font-size: 15px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        background-color: #ffffff;
+        color: inherit;
+        border: none;
+        padding: 1px !important;
+        font: inherit;
+        margin: 10px;
+        position: relative;
+        top: -72px;
+        height: 60px;
+        width: 80px;
+    }
+
+    .float-right {
+        float: none !important;
+    }
+
+    .label-text {
+        margin-right: 8px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        background-color: #ffffff;
+        color: inherit;
+        border: none;
+        padding: 1px !important;
+        font: inherit;
+        margin: 10px;
+        position: relative;
+        top: -72px;
+        height: 60px;
+        width: 80px;
+    }
+
+    .media-mt {
+        margin-top: 10px;
+    }
+
+    #main-banner {
+        padding: 30px 20px;
+    }
+
+
+
+    .main-text {
+        font-size: 32px;
+    }
+
+    .color-bg {
+        font-size: 22px;
+    }
+
+    .main-desc {
+        font-size: 16px;
+    }
+
+    #slider-section {
+        padding: 60px 10px 0px 10px;
+    }
+
+    .chosse-font {
+        font-size: 20px;
+    }
+
+    .chosse-sub-desc {
+        font-size: 17px;
+    }
+
+    .chosse-desc {
+        font-size: 15px;
+    }
+
+    .dep-text {
+        font-size: 28px;
+    }
+
+    .dep-desc {
+        font-size: 15px;
+    }
+
+    .dep-padding {
+        padding: 45px 20px;
+    }
+
+    .ser-text {
+        font-size: 19px;
+    }
+
+    .ser-desc {
+        font-size: 15px;
+    }
+
+    .left-section-padding {
+        padding: 40px 30px;
+    }
+
+    #left-section {
+        height: 400px;
+    }
+
+    #right-section {
+        height: 630px;
+    }
+
+    .register-text {
+        font-size: 25px;
+    }
+
+    .right-section-padding {
+        padding: 20px 25px;
+    }
+
+    .media-mt-40 {
+        margin-top: 40px;
+    }
+
+    .gallery-text {
+        font-size: 28px;
+    }
+
+    .gallery-desc {
+        font-size: 15px;
+    }
+
+    .gallery-padding {
+        padding: 15px 20px;
+    }
+
+    #doctors {
+        padding: 20px 15px 100px 15px;
+    }
+
+    .doc-text {
+        font-size: 24px;
+    }
+
+    .doc-desc {
+        font-size: 15px;
+    }
+
+    #touch-section {
+        padding: 15px 15px;
+    }
+
+    .footer-font {
+        font-size: 15px;
+    }
+
+
+    .active-me {
+        width: 42%;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    #main-banner {
+        padding: 30px 20px;
+    }
+
+    .main-text {
+        font-size: 32px;
+    }
+
+    .color-bg {
+        font-size: 22px;
+    }
+
+    .main-desc {
+        font-size: 16px;
+    }
+
+    #slider-section {
+        padding: 60px 10px 0px 10px;
+    }
+
+    .chosse-font {
+        font-size: 20px;
+    }
+
+    .chosse-sub-desc {
+        font-size: 17px;
+    }
+
+    .chosse-desc {
+        font-size: 15px;
+    }
+
+    .dep-text {
+        font-size: 28px;
+    }
+
+    .dep-desc {
+        font-size: 15px;
+    }
+
+    .dep-padding {
+        padding: 45px 20px;
+    }
+
+    .ser-text {
+        font-size: 19px;
+    }
+
+    .ser-desc {
+        font-size: 15px;
+    }
+
+    .left-section-padding {
+        padding: 40px 30px;
+    }
+
+    #left-section {
+        height: 400px;
+    }
+
+    #right-section {
+        height: 630px;
+    }
+
+    .register-text {
+        font-size: 25px;
+    }
+
+    .right-section-padding {
+        padding: 20px 25px;
+    }
+
+    .media-mt-40 {
+        margin-top: 40px;
+    }
+
+    .gallery-text {
+        font-size: 28px;
+    }
+
+    .gallery-desc {
+        font-size: 15px;
+    }
+
+    .gallery-padding {
+        padding: 15px 20px;
+    }
+
+    #doctors {
+        padding: 20px 15px 100px 15px;
+    }
+
+    .doc-text {
+        font-size: 24px;
+    }
+
+    .doc-desc {
+        font-size: 15px;
+    }
+
+    #touch-section {
+        padding: 15px 15px;
+    }
+
+    .footer-font {
+        font-size: 15px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        padding: 7px !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #main-banner {
+        padding: 30px 20px;
+    }
+
+    .main-text {
+        font-size: 32px;
+    }
+
+
+
+    .color-bg {
+        font-size: 22px;
+    }
+
+    .main-desc {
+        font-size: 16px;
+    }
+
+    #slider-section {
+        padding: 60px 10px 0px 10px;
+    }
+
+    .chosse-font {
+        font-size: 20px;
+    }
+
+    .chosse-sub-desc {
+        font-size: 17px;
+    }
+
+    .chosse-desc {
+        font-size: 15px;
+    }
+
+    .dep-text {
+        font-size: 28px;
+    }
+
+    .dep-desc {
+        font-size: 15px;
+    }
+
+    .dep-padding {
+        padding: 45px 20px;
+    }
+
+    .ser-text {
+        font-size: 19px;
+    }
+
+    .ser-desc {
+        font-size: 15px;
+    }
+
+    .left-section-padding {
+        padding: 40px 30px;
+    }
+
+    #left-section {
+        height: 400px;
+    }
+
+    #right-section {
+        height: 630px;
+    }
+
+    .register-text {
+        font-size: 25px;
+    }
+
+    .right-section-padding {
+        padding: 20px 25px;
+    }
+
+    .media-mt-40 {
+        margin-top: 40px;
+    }
+
+    .gallery-text {
+        font-size: 28px;
+    }
+
+    .gallery-desc {
+        font-size: 15px;
+    }
+
+    .gallery-padding {
+        padding: 15px 20px;
+    }
+
+    #doctors {
+        padding: 20px 15px 100px 15px;
+    }
+
+    .doc-text {
+        font-size: 24px;
+    }
+
+    .doc-desc {
+        font-size: 15px;
+    }
+
+    #touch-section {
+        padding: 15px 15px;
+    }
+
+    .footer-font {
+        font-size: 15px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        background-color: #ffffff;
+        color: inherit;
+        border: none;
+        padding: 0px !important;
+        font: inherit;
+        margin: 10px;
+        position: relative;
+        top: -72px;
+        height: 60px;
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #main-banner {
+        padding: 30px 20px;
+    }
+
+    .main-text {
+        font-size: 32px;
+    }
+
+
+
+    .color-bg {
+        font-size: 22px;
+    }
+
+    .main-desc {
+        font-size: 16px;
+    }
+
+    #slider-section {
+        padding: 60px 10px 0px 10px;
+    }
+
+    .chosse-font {
+        font-size: 20px;
+    }
+
+    .chosse-sub-desc {
+        font-size: 17px;
+    }
+
+    .chosse-desc {
+        font-size: 15px;
+    }
+
+    .dep-text {
+        font-size: 28px;
+    }
+
+    .dep-desc {
+        font-size: 15px;
+    }
+
+    .dep-padding {
+        padding: 45px 20px;
+    }
+
+    .ser-text {
+        font-size: 19px;
+    }
+
+    .ser-desc {
+        font-size: 15px;
+    }
+
+    .left-section-padding {
+        padding: 40px 30px;
+    }
+
+    #left-section {
+        height: 400px;
+    }
+
+    #right-section {
+        height: 630px;
+    }
+
+    .register-text {
+        font-size: 25px;
+    }
+
+    .right-section-padding {
+        padding: 20px 25px;
+    }
+
+    .media-mt-40 {
+        margin-top: 40px;
+    }
+
+    .gallery-text {
+        font-size: 28px;
+    }
+
+    .gallery-desc {
+        font-size: 15px;
+    }
+
+    .gallery-padding {
+        padding: 15px 20px;
+    }
+
+    #doctors {
+        padding: 20px 15px 100px 15px;
+    }
+
+    .doc-text {
+        font-size: 24px;
+    }
+
+    .doc-desc {
+        font-size: 15px;
+    }
+
+    #touch-section {
+        padding: 15px 15px;
+    }
+
+    .footer-font {
+        font-size: 15px;
+    }
+}
+
+/*==================== Media Query For Land Scape Mode =====================*/
+@media screen and (max-width: 1366px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    .active-me {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 824px) and (orientation: landscape) {
+    .d-none {
+        display: block !important;
+    }
+
+    .media-justify {
+        justify-content: center !important;
+    }
+
+    .mail-text {
+        font-size: 11px;
+    }
+
+    .mail-desc {
+        font-size: 10px;
+    }
+
+    .label-text {
+        margin-right: 5px;
+    }
+
+    .active-me {
+        width: 20%;
+    }
+
+    .media-mt {
+        margin-top: 30px;
+    }
+
+    .custom-padding {
+        padding: 16px 50px;
+    }
+
+    #main-banner {
+        padding: 30px 20px;
+    }
+
+    .main-text {
+        font-size: 32px;
+    }
+
+    .color-bg {
+        font-size: 22px;
+    }
+
+    .main-desc {
+        font-size: 15px;
+    }
+
+
+
+    #slider-section {
+        padding: 60px 10px 0px 10px;
+    }
+
+    .chosse-font {
+        font-size: 15px;
+    }
+
+    .chosse-sub-desc {
+        font-size: 14px;
+    }
+
+    .chosse-desc {
+        font-size: 13px;
+    }
+
+    .dep-text {
+        font-size: 28px;
+    }
+
+    .dep-desc {
+        font-size: 15px;
+    }
+
+    .dep-padding {
+        padding: 45px 20px;
+    }
+
+    .ser-text {
+        font-size: 19px;
+    }
+
+    .ser-desc {
+        font-size: 15px;
+    }
+
+    .left-section-padding {
+        padding: 40px 30px;
+    }
+
+    #left-section {
+        height: 320px;
+    }
+
+    #right-section {
+        height: 470px;
+    }
+
+    .register-text {
+        font-size: 25px;
+    }
+
+    .right-section-padding {
+        padding: 20px 25px;
+    }
+
+    .media-mt-40 {
+        margin-top: 40px;
+    }
+
+    .gallery-text {
+        font-size: 28px;
+    }
+
+    .gallery-desc {
+        font-size: 15px;
+    }
+
+    .gallery-padding {
+        padding: 15px 20px;
+    }
+
+    #doctors {
+        padding: 70px 15px 100px 15px;
+    }
+
+    .card-title {
+        font-size: 12px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    .doc-text {
+        font-size: 24px;
+    }
+
+    .doc-desc {
+        font-size: 15px;
+    }
+
+    #touch-section {
+        padding: 63px 15px;
+    }
+
+    .footer-font {
+        font-size: 15px;
+    }
+
+    #counter-section {
+        padding: 30px 0px 50px 0px;
+    }
+
+    .float-right {
+        float: none !important;
+    }
+}
+
+@media screen and (max-width: 740px) and (orientation: landscape) {
+    .medi-margin-left {
+        margin-left: 30%;
+    }
+
+    .media-width {
+        width: 42% !important;
+    }
+
+    .float-right {
+        float: none !important;
+    }
+
+    .active-me {
+        width: 20%;
+    }
+
+    .media-mt {
+        margin-top: 30px;
+    }
+
+    .custom-padding {
+        padding: 16px 50px;
+    }
+
+    #main-banner {
+        padding: 30px 20px;
+    }
+
+    .main-text {
+        font-size: 32px;
+    }
+
+    .color-bg {
+        font-size: 22px;
+    }
+
+    .main-desc {
+        width: 58%;
+        font-size: 16px;
+    }
+
+
+
+    #slider-section {
+        padding: 60px 10px 0px 10px;
+    }
+
+    .chosse-font {
+        font-size: 15px;
+    }
+
+    .chosse-sub-desc {
+        font-size: 14px;
+    }
+
+    .chosse-desc {
+        font-size: 13px;
+    }
+
+    .dep-text {
+        font-size: 28px;
+    }
+
+    .dep-desc {
+        font-size: 15px;
+    }
+
+    .dep-padding {
+        padding: 45px 20px;
+    }
+
+    .ser-text {
+        font-size: 19px;
+    }
+
+    .ser-desc {
+        font-size: 15px;
+    }
+
+    .left-section-padding {
+        padding: 40px 30px;
+    }
+
+    #left-section {
+        height: 320px;
+    }
+
+    #right-section {
+        height: 630px;
+    }
+
+    .register-text {
+        font-size: 25px;
+    }
+
+    .right-section-padding {
+        padding: 20px 25px;
+    }
+
+    .media-mt-40 {
+        margin-top: 40px;
+    }
+
+    .gallery-text {
+        font-size: 28px;
+    }
+
+    .gallery-desc {
+        font-size: 15px;
+    }
+
+    .gallery-padding {
+        padding: 15px 20px;
+    }
+
+    #doctors {
+        padding: 20px 15px 100px 15px;
+    }
+
+    .card-title {
+        font-size: 12px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    .doc-text {
+        font-size: 24px;
+    }
+
+    .doc-desc {
+        font-size: 15px;
+    }
+
+    #touch-section {
+        padding: 15px 15px;
+    }
+
+    .footer-font {
+        font-size: 15px;
+    }
+
+    #counter-section {
+        padding: 30px 0px 50px 0px;
+    }
+}
+
+@media screen and (max-width: 736px) and (orientation: landscape) {
+    .float-right {
+        float: none !important;
+    }
+
+    .active-me {
+        width: 20%;
+    }
+
+    .media-mt {
+        margin-top: 30px;
+    }
+
+    .custom-padding {
+        padding: 16px 50px;
+    }
+
+    #main-banner {
+        padding: 30px 20px;
+    }
+
+    .main-text {
+        font-size: 32px;
+    }
+
+    .color-bg {
+        font-size: 22px;
+    }
+
+    .main-desc {
+        width: 58%;
+        font-size: 16px;
+    }
+
+
+    #slider-section {
+        padding: 60px 10px 0px 10px;
+    }
+
+    .chosse-font {
+        font-size: 15px;
+    }
+
+    .chosse-sub-desc {
+        font-size: 14px;
+    }
+
+    .chosse-desc {
+        font-size: 13px;
+    }
+
+    .dep-text {
+        font-size: 28px;
+    }
+
+    .dep-desc {
+        font-size: 15px;
+    }
+
+    .dep-padding {
+        padding: 45px 20px;
+    }
+
+    .ser-text {
+        font-size: 19px;
+    }
+
+    .ser-desc {
+        font-size: 15px;
+    }
+
+    .left-section-padding {
+        padding: 40px 30px;
+    }
+
+    #left-section {
+        height: 320px;
+    }
+
+    #right-section {
+        height: 630px;
+    }
+
+    .register-text {
+        font-size: 25px;
+    }
+
+    .right-section-padding {
+        padding: 20px 25px;
+    }
+
+    .media-mt-40 {
+        margin-top: 40px;
+    }
+
+    .gallery-text {
+        font-size: 28px;
+    }
+
+    .gallery-desc {
+        font-size: 15px;
+    }
+
+    .gallery-padding {
+        padding: 15px 20px;
+    }
+
+    #doctors {
+        padding: 20px 15px 100px 15px;
+    }
+
+    .card-title {
+        font-size: 12px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    .doc-text {
+        font-size: 24px;
+    }
+
+    .doc-desc {
+        font-size: 15px;
+    }
+
+    #touch-section {
+        padding: 15px 15px;
+    }
+
+    .footer-font {
+        font-size: 15px;
+    }
+
+    #counter-section {
+        padding: 30px 0px 50px 0px;
+    }
+}
+
+@media screen and (max-width: 731px) and (orientation: landscape) {
+    .float-right {
+        float: none !important;
+    }
+
+    .active-me {
+        width: 20%;
+    }
+
+    .media-mt {
+        margin-top: 30px;
+    }
+
+    .custom-padding {
+        padding: 16px 50px;
+    }
+
+    #main-banner {
+        padding: 30px 20px;
+    }
+
+    .main-text {
+        font-size: 32px;
+    }
+
+    .color-bg {
+        font-size: 22px;
+    }
+
+    .main-desc {
+        font-size: 16px;
+    }
+
+
+
+    #slider-section {
+        padding: 60px 10px 0px 10px;
+    }
+
+    .chosse-font {
+        font-size: 15px;
+    }
+
+    .chosse-sub-desc {
+        font-size: 14px;
+    }
+
+    .chosse-desc {
+        font-size: 13px;
+    }
+
+    .dep-text {
+        font-size: 28px;
+    }
+
+    .dep-desc {
+        font-size: 15px;
+    }
+
+    .dep-padding {
+        padding: 45px 20px;
+    }
+
+    .ser-text {
+        font-size: 19px;
+    }
+
+    .ser-desc {
+        font-size: 15px;
+    }
+
+    .left-section-padding {
+        padding: 40px 30px;
+    }
+
+    #left-section {
+        height: 320px;
+    }
+
+    #right-section {
+        height: 630px;
+    }
+
+    .register-text {
+        font-size: 25px;
+    }
+
+    .right-section-padding {
+        padding: 20px 25px;
+    }
+
+    .media-mt-40 {
+        margin-top: 40px;
+    }
+
+    .gallery-text {
+        font-size: 28px;
+    }
+
+    .gallery-desc {
+        font-size: 15px;
+    }
+
+    .gallery-padding {
+        padding: 15px 20px;
+    }
+
+    #doctors {
+        padding: 20px 15px 100px 15px;
+    }
+
+    .card-title {
+        font-size: 12px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    .doc-text {
+        font-size: 24px;
+    }
+
+    .doc-desc {
+        font-size: 15px;
+    }
+
+    #touch-section {
+        padding: 15px 15px;
+    }
+
+    .footer-font {
+        font-size: 15px;
+    }
+
+    #counter-section {
+        padding: 30px 0px 50px 0px;
+    }
+}
+
+@media screen and (max-width: 668px) and (orientation: landscape) {
+    .media-width {
+        width: 60% !important;
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        background-color: #ffffff;
+        color: inherit;
+        border: none;
+        padding: 0px !important;
+        font: inherit;
+        margin: 10px;
+        position: relative;
+        top: -72px;
+        height: 60px;
+        width: 80px;
+    }
+
+    .active-me {
+        width: 20%;
+    }
+
+    .media-mt {
+        margin-top: 30px;
+    }
+
+    .custom-padding {
+        padding: 16px 50px;
+    }
+
+    #main-banner {
+        padding: 30px 20px;
+    }
+
+    .main-text {
+        font-size: 32px;
+    }
+
+    .color-bg {
+        font-size: 22px;
+    }
+
+    .main-desc {
+        font-size: 16px;
+    }
+
+
+
+    #slider-section {
+        padding: 60px 10px 0px 10px;
+    }
+
+    .chosse-font {
+        font-size: 15px;
+    }
+
+    .chosse-sub-desc {
+        font-size: 13px;
+    }
+
+    .chosse-desc {
+        font-size: 12px;
+    }
+
+    .dep-text {
+        font-size: 28px;
+    }
+
+    .dep-desc {
+        font-size: 15px;
+    }
+
+    .dep-padding {
+        padding: 45px 20px;
+    }
+
+    .ser-text {
+        font-size: 19px;
+    }
+
+    .ser-desc {
+        font-size: 15px;
+    }
+
+    .left-section-padding {
+        padding: 40px 30px;
+    }
+
+    #left-section {
+        height: 320px;
+    }
+
+    #right-section {
+        height: 630px;
+    }
+
+    .register-text {
+        font-size: 25px;
+    }
+
+    .right-section-padding {
+        padding: 20px 25px;
+    }
+
+    .media-mt-40 {
+        margin-top: 40px;
+    }
+
+    .gallery-text {
+        font-size: 28px;
+    }
+
+    .gallery-desc {
+        font-size: 15px;
+    }
+
+    .gallery-padding {
+        padding: 15px 20px;
+    }
+
+    #doctors {
+        padding: 20px 15px 100px 15px;
+    }
+
+    .card-title {
+        font-size: 12px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    .doc-text {
+        font-size: 24px;
+    }
+
+    .doc-desc {
+        font-size: 15px;
+    }
+
+    #touch-section {
+        padding: 15px 15px;
+    }
+
+    .footer-font {
+        font-size: 15px;
+    }
+
+    #counter-section {
+        padding: 30px 0px 50px 0px;
+    }
+
+    .float-right {
+        float: none !important;
+    }
+}
+
+@media screen and (max-width: 640px) and (orientation: landscape) {
+    .active-me {
+        width: 20%;
+    }
+
+    .media-mt {
+        margin-top: 30px;
+    }
+
+    .custom-padding {
+        padding: 16px 50px;
+    }
+
+    #main-banner {
+        padding: 30px 20px;
+    }
+
+    .main-text {
+        font-size: 32px;
+    }
+
+    .color-bg {
+        font-size: 22px;
+    }
+
+    .main-desc {
+        font-size: 16px;
+    }
+
+
+
+    #slider-section {
+        padding: 60px 10px 0px 10px;
+    }
+
+    .chosse-font {
+        font-size: 24px;
+    }
+
+    .chosse-sub-desc {
+        font-size: 20px;
+    }
+
+    .chosse-desc {
+        font-size: 18px;
+    }
+
+    .dep-text {
+        font-size: 28px;
+    }
+
+    .dep-desc {
+        font-size: 15px;
+    }
+
+    .dep-padding {
+        padding: 45px 20px;
+    }
+
+    .ser-text {
+        font-size: 19px;
+    }
+
+    .ser-desc {
+        font-size: 15px;
+    }
+
+    .left-section-padding {
+        padding: 40px 30px;
+    }
+
+    #left-section {
+        height: 320px;
+    }
+
+    #right-section {
+        height: 630px;
+    }
+
+    .register-text {
+        font-size: 25px;
+    }
+
+    .right-section-padding {
+        padding: 20px 25px;
+    }
+
+    .media-mt-40 {
+        margin-top: 40px;
+    }
+
+    .gallery-text {
+        font-size: 28px;
+    }
+
+    .gallery-desc {
+        font-size: 15px;
+    }
+
+    .gallery-padding {
+        padding: 15px 20px;
+    }
+
+    #doctors {
+        padding: 20px 15px 100px 15px;
+    }
+
+    .card-title {
+        font-size: 12px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    .doc-text {
+        font-size: 24px;
+    }
+
+    .doc-desc {
+        font-size: 15px;
+    }
+
+    #touch-section {
+        padding: 15px 15px;
+    }
+
+    .footer-font {
+        font-size: 15px;
+    }
+
+    #counter-section {
+        padding: 30px 0px 50px 0px;
+    }
+
+    .float-right {
+        float: none !important;
+    }
+    /*.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+        padding: 7px !important;
+    }*/
+}

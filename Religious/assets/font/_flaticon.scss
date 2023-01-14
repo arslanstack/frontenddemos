@@ -1,0 +1,112 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 14/03/2019 05:32
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-telephone:before { content: "\f100"; }
+.flaticon-open-envelope:before { content: "\f101"; }
+.flaticon-calendar:before { content: "\f102"; }
+.flaticon-link:before { content: "\f103"; }
+.flaticon-link-symbol:before { content: "\f104"; }
+.flaticon-add:before { content: "\f105"; }
+.flaticon-email:before { content: "\f106"; }
+.flaticon-old-handphone:before { content: "\f107"; }
+.flaticon-dribbble-logo:before { content: "\f108"; }
+.flaticon-twitter-logo-silhouette:before { content: "\f109"; }
+.flaticon-google-plus-logo:before { content: "\f10a"; }
+.flaticon-home:before { content: "\f10b"; }
+.flaticon-clock-circular-outline:before { content: "\f10c"; }
+.flaticon-play-button:before { content: "\f10d"; }
+.flaticon-headphone-symbol:before { content: "\f10e"; }
+.flaticon-open-book:before { content: "\f10f"; }
+.flaticon-book:before { content: "\f110"; }
+.flaticon-download:before { content: "\f111"; }
+.flaticon-facebook-logo:before { content: "\f112"; }
+.flaticon-magnifier:before { content: "\f113"; }
+.flaticon-pinterest:before { content: "\f114"; }
+.flaticon-youtube:before { content: "\f115"; }
+.flaticon-instagram:before { content: "\f116"; }
+.flaticon-right-arrow-angle:before { content: "\f117"; }
+.flaticon-left-angle-bracket:before { content: "\f118"; }
+.flaticon-mobile-phone:before { content: "\f119"; }
+.flaticon-vintage-cellphone:before { content: "\f11a"; }
+.flaticon-mail:before { content: "\f11b"; }
+.flaticon-at:before { content: "\f11c"; }
+.flaticon-mosque:before { content: "\f11d"; }
+.flaticon-muslim-prayer:before { content: "\f11e"; }
+.flaticon-kaaba-mecca:before { content: "\f11f"; }
+.flaticon-muslim:before { content: "\f120"; }
+.flaticon-money:before { content: "\f121"; }
+.flaticon-reading-quran:before { content: "\f122"; }
+.flaticon-facebook-placeholder-for-locate-places-on-maps:before { content: "\f123"; }
+    
+    $font-Flaticon-telephone: "\f100";
+    $font-Flaticon-open-envelope: "\f101";
+    $font-Flaticon-calendar: "\f102";
+    $font-Flaticon-link: "\f103";
+    $font-Flaticon-link-symbol: "\f104";
+    $font-Flaticon-add: "\f105";
+    $font-Flaticon-email: "\f106";
+    $font-Flaticon-old-handphone: "\f107";
+    $font-Flaticon-dribbble-logo: "\f108";
+    $font-Flaticon-twitter-logo-silhouette: "\f109";
+    $font-Flaticon-google-plus-logo: "\f10a";
+    $font-Flaticon-home: "\f10b";
+    $font-Flaticon-clock-circular-outline: "\f10c";
+    $font-Flaticon-play-button: "\f10d";
+    $font-Flaticon-headphone-symbol: "\f10e";
+    $font-Flaticon-open-book: "\f10f";
+    $font-Flaticon-book: "\f110";
+    $font-Flaticon-download: "\f111";
+    $font-Flaticon-facebook-logo: "\f112";
+    $font-Flaticon-magnifier: "\f113";
+    $font-Flaticon-pinterest: "\f114";
+    $font-Flaticon-youtube: "\f115";
+    $font-Flaticon-instagram: "\f116";
+    $font-Flaticon-right-arrow-angle: "\f117";
+    $font-Flaticon-left-angle-bracket: "\f118";
+    $font-Flaticon-mobile-phone: "\f119";
+    $font-Flaticon-vintage-cellphone: "\f11a";
+    $font-Flaticon-mail: "\f11b";
+    $font-Flaticon-at: "\f11c";
+    $font-Flaticon-mosque: "\f11d";
+    $font-Flaticon-muslim-prayer: "\f11e";
+    $font-Flaticon-kaaba-mecca: "\f11f";
+    $font-Flaticon-muslim: "\f120";
+    $font-Flaticon-money: "\f121";
+    $font-Flaticon-reading-quran: "\f122";
+    $font-Flaticon-facebook-placeholder-for-locate-places-on-maps: "\f123";

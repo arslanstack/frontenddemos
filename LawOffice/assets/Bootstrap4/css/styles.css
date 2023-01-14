@@ -1,0 +1,2023 @@
+﻿/*=================================
+        Font-Family's Start
+  =================================*/
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url('../../Fonts/Proxima Nova Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Thin';
+    src: url('../../Fonts/Proxima Nova Thin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'ProximaNova-Regular';
+    src: url('../../Fonts/ProximaNova-Regular.otf') format('opentype');
+}
+/*
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+*/
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.banner-container {
+    position: relative;
+    width: 100%;
+}
+
+    .banner-container > img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .banner-container .after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .banner-container:hover .after {
+        display: block;
+    }
+
+/*=================================
+    Navbar Section Styling
+  =================================*/
+#home {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.some {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-setting-on-scroll {
+    padding: 0px 20px !important;
+}
+
+.easy-nav-on-scroll {
+    transition: all 0.6s ease-in-out;
+}
+
+.nav-padding {
+    padding: 0px 0px 0 80px;
+}
+
+.nav-item {
+    padding: 0px 20px 0 20px;
+    position: relative;
+}
+
+#my-nav-brand .navbar-brand {
+    display: inline;
+    margin-right: 0;
+}
+
+.nav-trans {
+    transition: padding 400ms linear;
+}
+
+nav {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: position 10s;
+    -ms-transition: position 10s;
+    -o-transition: position 10s;
+    transition: all 0.5s ease;
+}
+
+.fixed-top {
+    animation: smoothScroll 1s forwards;
+}
+
+@keyframes smoothScroll {
+    0% {
+        transform: translateY(-40px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.nav-bg-color {
+    background: #161618;
+}
+
+
+.navbar {
+    padding: 28px 0 28px 0;
+}
+
+.active .nav-link {
+    position: relative;
+    font-size: 20px;
+    color: #f3bc16 !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-nav .nav-link {
+    color: #fbfbfb;
+    font-size: 20px;
+    padding: 8px 13px 5px 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hello-text {
+    font-size: 30px;
+    color: #161618;
+    margin-bottom: 0;
+    font-family: 'Proxima Nova Semibold';
+}
+
+.main-bg-banner {
+    position: relative;
+    padding: 0px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content-setting {
+    padding: 256px 0 0 0;
+}
+
+#home .main-banner-text {
+    font-size: 56px;
+    color: #161618;
+    text-align: left;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 1.5px 2.598px 2px rgba(0, 0, 0, 0.33);
+}
+
+#home .main-banner-desc {
+    font-size: 18px;
+    color: #000000;
+    text-align: left;
+    font-family: 'ProximaNova-Regular';
+}
+
+.color-yellow {
+    color: #f3bc16;
+}
+
+.btn-cases {
+    width: 241px;
+    height: 72px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 57px;
+    background: transparent;
+    border: 2px solid #f3bc16;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border-radius: 37px;
+}
+
+    .btn-cases:hover {
+        color: #ffffff;
+    }
+
+
+.btn-contact {
+    position: relative;
+    width: 125px;
+    height: 72px;
+    text-decoration: none !important;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 0 !important;
+    line-height: 57px;
+    background: #c4c7ca;
+    text-transform: capitalize;
+    font-family: 'Proxima Nova Semibold';
+}
+
+    .btn-contact:after {
+        content: '';
+        position: absolute;
+        background: #000000;
+        width: 29%;
+        height: 2px;
+        bottom: 32px;
+    }
+
+    .btn-contact:hover:after {
+        content: '';
+        position: absolute;
+        background: #000000;
+        width: 20%;
+        height: 2px;
+        bottom: 32px;
+    }
+
+    .btn-contact:hover {
+        color: #000000;
+        width: 241px;
+        height: 72px;
+        transition: all .5s ease-in-out;
+    }
+
+
+.link-style {
+    text-decoration: none;
+    color: #fafcfe;
+}
+
+    .link-style:hover {
+        text-decoration: none;
+        color: #fafcfe;
+    }
+
+#home .owl-theme .owl-nav {
+    position: relative;
+    margin-top: 0px;
+}
+
+
+#home .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    bottom: 30px;
+    right: 43%;
+}
+
+#home .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    bottom: 30px;
+    left: 49%;
+}
+
+#home .owl-theme .owl-nav [class*=owl-] {
+    background: transparent;
+    color: #f3bc16;
+}
+
+#home .flaticon-next:before {
+    content: "\f113";
+    font-size: 35px;
+    margin-left: 0;
+}
+
+#home .flaticon-back:before {
+    content: "\f114";
+    font-size: 35px;
+    margin-left: 0;
+}
+
+/*=================================
+      About Section Styling
+  =================================*/
+.about-bg-banner {
+    padding: 48px 0;
+    background-size: auto;
+    background-position: -195px -158px;
+    background-repeat: no-repeat;
+}
+
+.head-text {
+    font-size: 22px;
+    color: #bbbbbb;
+    margin-bottom: 0;
+    font-family: 'Proxima Nova Semibold';
+}
+
+.heading-text {
+    font-size: 30px;
+    color: #161618;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+}
+
+.about-desc-text {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: .4px;
+    color: #161618;
+    font-family: 'ProximaNova-Regular';
+}
+
+.about-heading {
+    font-size: 20px;
+    color: #161618;
+    text-transform: capitalize;
+    font-family: 'Proxima Nova Semibold';
+}
+
+#about .flaticon-gavel:before {
+    font-size: 48px;
+    margin-left: 0;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(187, 187, 187);
+    border-radius: 50%;
+    background-color: rgb(22, 22, 24);
+    padding: 23px;
+    color: #fff;
+    content: "\f107";
+}
+
+#about .flaticon-gavel:hover:before {
+    box-shadow: 5px 8.66px 30px 0px rgba(0, 0, 0, 0.6);
+}
+
+#about .flaticon-lawyer-1:before {
+    font-size: 48px;
+    margin-left: 0;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(187, 187, 187);
+    border-radius: 50%;
+    background-color: rgb(22, 22, 24);
+    padding: 23px;
+    color: #fff;
+    content: "\f117";
+}
+
+#about .flaticon-lawyer-1:hover:before {
+    box-shadow: 5px 8.66px 30px 0px rgba(0, 0, 0, 0.6);
+}
+
+#about .flaticon-case:before {
+    font-size: 48px;
+    margin-left: 0;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(187, 187, 187);
+    border-radius: 50%;
+    background-color: rgb(22, 22, 24);
+    padding: 23px;
+    color: #fff;
+    content: "\f11d";
+}
+
+#about .flaticon-case:hover:before {
+    box-shadow: 5px 8.66px 30px 0px rgba(0, 0, 0, 0.6);
+}
+
+
+.img-border {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(187, 187, 187);
+    background-color: rgb(22, 22, 24);
+}
+/*=================================
+       Service Section Styling
+  =================================*/
+.service-banner {
+    padding: 48px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-head-text {
+    font-size: 22px;
+    color: #bbbbbb;
+    margin-bottom: 0;
+    font-family: 'Proxima Nova Semibold';
+}
+
+.section-heading-text {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+.section-about-desc-text {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: .4px;
+    color: #ffffff;
+    font-family: 'ProximaNova-Regular';
+}
+
+.service-heading {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+}
+
+.service-desc {
+    font-size: 18px;
+    color: #7d7d7e;
+    font-family: 'Proxima Nova Thin';
+}
+
+#service .flaticon-family:before {
+    content: "\f10b";
+    color: #fff;
+    font-size: 86px;
+    border-radius: 50%;
+    margin-left: 0;
+    padding: 58px;
+    background-color: rgb(42, 42, 42);
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+#service .flaticon-family:hover:before {
+    color: #161618;
+    border-radius: 50%;
+    text-shadow: 2px 2px #d9d9d9;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+#service .flaticon-handcuffs:before {
+    content: "\f11e";
+    color: #fff;
+    font-size: 86px;
+    border-radius: 50%;
+    margin-left: 0;
+    padding: 58px;
+    background-color: rgb(42, 42, 42);
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+#service .flaticon-handcuffs:hover:before {
+    color: #161618;
+    border-radius: 50%;
+    text-shadow: 2px 2px #d9d9d9;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+#service .flaticon-home:before {
+    content: "\f10d";
+    color: #fff;
+    font-size: 86px;
+    border-radius: 50%;
+    margin-left: 0;
+    padding: 58px;
+    background-color: rgb(42, 42, 42);
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+#service .flaticon-home:hover:before {
+    color: #161618;
+    border-radius: 50%;
+    text-shadow: 2px 2px #d9d9d9;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+#service .flaticon-law:before {
+    content: "\f122";
+    color: #fff;
+    font-size: 86px;
+    border-radius: 50%;
+    margin-left: 0;
+    padding: 58px;
+    background-color: rgb(42, 42, 42);
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+#service .flaticon-law:hover:before {
+    color: #161618;
+    border-radius: 50%;
+    text-shadow: 2px 2px #d9d9d9;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+#service .flaticon-mortarboard:before {
+    content: "\f10c";
+    color: #fff;
+    font-size: 86px;
+    border-radius: 50%;
+    margin-left: 0;
+    padding: 58px;
+    background-color: rgb(42, 42, 42);
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+#service .flaticon-mortarboard:hover:before {
+    color: #161618;
+    border-radius: 50%;
+    text-shadow: 2px 2px #d9d9d9;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+#service .flaticon-health:before {
+    content: "\f109";
+    color: #fff;
+    font-size: 86px;
+    border-radius: 50%;
+    margin-left: 0;
+    padding: 58px;
+    background-color: rgb(42, 42, 42);
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+#service .flaticon-health:hover:before {
+    color: #161618;
+    border-radius: 50%;
+    text-shadow: 2px 2px #d9d9d9;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+#service .flaticon-bank:before {
+    content: "\f10e";
+    color: #fff;
+    font-size: 86px;
+    border-radius: 50%;
+    margin-left: 0;
+    padding: 58px;
+    background-color: rgb(42, 42, 42);
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+#service .flaticon-bank:hover:before {
+    color: #161618;
+    border-radius: 50%;
+    text-shadow: 2px 2px #d9d9d9;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+#service .flaticon-fire:before {
+    content: "\f11f";
+    color: #fff;
+    font-size: 86px;
+    border-radius: 50%;
+    margin-left: 0;
+    padding: 58px;
+    background-color: rgb(42, 42, 42);
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+#service .flaticon-fire:hover:before {
+    color: #161618;
+    border-radius: 50%;
+    text-shadow: 2px 2px #d9d9d9;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+.read-text {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'ProximaNova-Regular';
+}
+
+/*=================================
+       Blog Section Styling
+  =================================*/
+.card-heading {
+    font-size: 18px;
+    color: #222222;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+.case-type {
+    font-size: 14px;
+    color: #555555;
+    font-family: 'ProximaNova-Regular';
+}
+
+.case-type-desc {
+    font-size: 14px;
+    font-family: 'ProximaNova-Regular';
+    color: #888888;
+}
+
+#news .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 24px;
+}
+
+#news .owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    margin: 5px 7px;
+    border: 5px solid #8c8c8c;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #000910 !important;
+    border: none !important;
+    width: 15px;
+    height: 15px;
+}
+
+#news .card:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(232, 232, 232);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 8.66px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+#news .owl-stage-outer > .owl-stage {
+    padding: 20px 0;
+}
+
+#news .card-body {
+    padding: 1.25rem 1.25rem 0 1.25rem;
+}
+
+.continue-text {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #161618 !important;
+    font-family: 'Proxima Nova Semibold';
+}
+/*=================================
+      Client Section Styling
+  =================================*/
+.client-banner {
+    padding: 90px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.img-radius {
+    width: 175px !important;
+    height: 175px !important;
+    border-radius: 50%;
+    border: 9px solid #e0e0e0;
+}
+
+.client-saying {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'ProximaNova-Regular';
+}
+
+.client-name {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+.designation-text {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+
+#client .owl-theme .owl-nav {
+    position: relative;
+    margin-top: 10px;
+}
+
+#client .owl-carousel .owl-nav button.owl-next {
+    background: transparent;
+    position: absolute;
+    right: -100px;
+    bottom: 94px;
+}
+
+#client .flaticon-next-1:before {
+    content: "\f121";
+    color: #161618;
+    font-size: 25px;
+    padding: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(165, 165, 165);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#client .owl-carousel .owl-nav button.owl-prev {
+    background: transparent;
+    position: absolute;
+    left: -100px;
+    bottom: 94px;
+}
+
+#client .flaticon-back-1:before {
+    content: "\f120";
+    color: #161618;
+    font-size: 25px;
+    padding: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(165, 165, 165);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+/*=================================
+      Contact Section Styling
+  =================================*/
+#contact {
+    padding: 50px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+    #contact ::placeholder {
+        font-size: 14px;
+        color: #4e4e50;
+        text-transform: uppercase;
+        font-family: 'Proxima Nova Thin';
+    }
+
+.field-name {
+    width: 100%;
+    height: 66px;
+    padding: 18px;
+    font-size: 14px;
+    color: #4e4e50;
+    font-family: 'Proxima Nova Thin';
+    border: 2px solid #bbbbbb;
+    background: transparent;
+}
+
+.textarea-name {
+    width: 100%;
+    height: auto;
+    padding: 18px;
+    font-size: 14px;
+    color: #4e4e50;
+    resize: none;
+    font-family: 'Proxima Nova Thin';
+    border: 2px solid #bbbbbb;
+    background: transparent;
+}
+
+.btn-send {
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    border: none;
+    border-radius: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Proxima Nova Semibold';
+    background-color: rgb(22, 22, 24);
+}
+
+.appoint-text {
+    font-size: 40px;
+    color: #161618;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+.appoint-desc {
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: .4px;
+    font-family: 'ProximaNova-Regular';
+    color: #161618;
+}
+
+.call-bg-color {
+    width: 100%;
+    height: 80px;
+    line-height: 82px;
+    background-color: rgb(22, 22, 24);
+}
+
+.phone-text {
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'ProximaNova-Regular';
+}
+
+#contact .flaticon-phone-receiver:before {
+    content: "\f110";
+    font-family: Flaticon;
+    font-size: 34px;
+    font-style: normal;
+    color: #ffffff;
+    margin-left: 122px
+}
+
+#footer {
+    padding: 38px 0 34px 0;
+    background-color: rgb(22, 22, 24);
+}
+
+.footer-font {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'ProximaNova-Regular';
+}
+
+.smooth {
+    transition: all .5s ease;
+}
+
+.position-icon {
+    position: absolute;
+    bottom: 18px;
+    right: 25px;
+    transform: rotate(-90deg);
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    font-size: 14px;
+    color: #4e4e50;
+    text-transform: uppercase;
+    font-family: 'Proxima Nova Thin';
+}
+
+#contact .flaticon-back-1:before {
+    content: "\f120";
+    color: #e4e4e4;
+    font-size: 18px;
+    margin-left: 0;
+}
+/*=================================
+          Read More Styling
+  =================================*/
+.comments-space {
+    margin-bottom: 0;
+    padding: 0 2px 0 2px;
+    text-align: center;
+}
+
+.comments-spaces {
+    text-align: left;
+}
+
+.comments-spacess {
+    text-align: center;
+}
+
+.remaining-contents span {
+    display: none;
+}
+
+/*=================== Custome Margins ===================*/
+.t-8 {
+    right: -133px;
+    top: -1px;
+}
+
+.ml-9 {
+    margin-left: 2.5rem;
+}
+
+.mt-35-p {
+    margin-top: 35%;
+}
+
+.mt--180 {
+    margin-top: -180px;
+}
+
+.mt--375 {
+    margin-top: -375px;
+}
+
+.mt--117 {
+    margin-top: -117px;
+}
+
+.mt--100 {
+    margin-top: -100px;
+}
+
+.mt--95 {
+    margin-top: -95px;
+}
+
+.mt--90 {
+    margin-top: -90px;
+}
+
+.mt--60 {
+    margin-top: -60px;
+}
+
+.mt--55 {
+    margin-top: -55px;
+}
+
+.mt--48 {
+    margin-top: -48px;
+}
+
+.mt--44 {
+    margin-top: -44px;
+}
+
+.mt--22 {
+    margin-top: -22px;
+}
+
+.mt--13 {
+    margin-top: -13px;
+}
+
+.mt--9 {
+    margin-top: -9px;
+}
+
+.mt--7 {
+    margin-top: -7px;
+}
+
+.mt-360 {
+    margin-top: 360px;
+}
+
+.mt-300 {
+    margin-top: 300px;
+}
+
+.mt-290 {
+    margin-top: 290px;
+}
+
+.mt-280 {
+    margin-top: 280px;
+}
+
+.mt-270 {
+    margin-top: 270px;
+}
+
+.mt-260 {
+    margin-top: 260px;
+}
+
+.mt-250 {
+    margin-top: 250px;
+}
+
+.mt-240 {
+    margin-top: 240px;
+}
+
+.mt-230 {
+    margin-top: 230px;
+}
+
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mt-180 {
+    margin-top: 180px;
+}
+
+.mt-170 {
+    margin-top: 170px;
+}
+
+.mt-160 {
+    margin-top: 160px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mt-140 {
+    margin-top: 140px;
+}
+
+.mt-130 {
+    margin-top: 130px;
+}
+
+.mt-120 {
+    margin-top: 120px;
+}
+
+.mt-115 {
+    margin-top: 115px;
+}
+
+.mt-110 {
+    margin-top: 110px;
+}
+
+.mt-108 {
+    margin-top: 108px;
+}
+
+.mt-106 {
+    margin-top: 106px;
+}
+
+.mt-105 {
+    margin-top: 105px;
+}
+
+.mt-102 {
+    margin-top: 102px;
+}
+
+.mt-101 {
+    margin-top: 101px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-99 {
+    margin-top: 99px;
+}
+
+.mt-98 {
+    margin-top: 98px;
+}
+
+.mt-97 {
+    margin-top: 97px;
+}
+
+.mt-96 {
+    margin-top: 96px;
+}
+
+.mt-95 {
+    margin-top: 95px;
+}
+
+.mt-94 {
+    margin-top: 94px;
+}
+
+.mt-93 {
+    margin-top: 93px;
+}
+
+.mt-92 {
+    margin-top: 92px;
+}
+
+.mt-91 {
+    margin-top: 91px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.mt-89 {
+    margin-top: 89px;
+}
+
+.mt-88 {
+    margin-top: 88px;
+}
+
+.mt-87 {
+    margin-top: 87px;
+}
+
+.mt-86 {
+    margin-top: 86px;
+}
+
+.mt-85 {
+    margin-top: 85px;
+}
+
+.mt-84 {
+    margin-top: 84px;
+}
+
+.mt-83 {
+    margin-top: 83px;
+}
+
+.mt-82 {
+    margin-top: 82px;
+}
+
+.mt-81 {
+    margin-top: 81px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-75 {
+    margin-top: 75px;
+}
+
+.mt-74 {
+    margin-top: 74px;
+}
+
+.mt-73 {
+    margin-top: 73px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mt-68 {
+    margin-top: 68px;
+}
+
+.mt-65 {
+    margin-top: 65px;
+}
+
+.mt-64 {
+    margin-top: 64px;
+}
+
+.mt-63 {
+    margin-top: 63px;
+}
+
+.mt-62 {
+    margin-top: 62px;
+}
+
+.mt-61 {
+    margin-top: 61px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-59 {
+    margin-top: 59px;
+}
+
+.mt-58 {
+    margin-top: 58px;
+}
+
+.mt-57 {
+    margin-top: 57px;
+}
+
+.mt-56 {
+    margin-top: 56px;
+}
+
+.mt-55 {
+    margin-top: 55px;
+}
+
+.mt-54 {
+    margin-top: 54px;
+}
+
+.mt-53 {
+    margin-top: 53px;
+}
+
+.mt-52 {
+    margin-top: 52px;
+}
+
+.mt-51 {
+    margin-top: 51px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-49 {
+    margin-top: 49px;
+}
+
+.mt-48 {
+    margin-top: 48px;
+}
+
+.mt-47 {
+    margin-top: 47px;
+}
+
+.mt-46 {
+    margin-top: 46px;
+}
+
+.mt-45 {
+    margin-top: 45px;
+}
+
+.mt-44 {
+    margin-top: 44px;
+}
+
+.mt-43 {
+    margin-top: 43px;
+}
+
+.mt-42 {
+    margin-top: 42px;
+}
+
+.mt-41 {
+    margin-top: 41px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-39 {
+    margin-top: 39px;
+}
+
+.mt-38 {
+    margin-top: 38px;
+}
+
+.mt-37 {
+    margin-top: 37px;
+}
+
+.mt-36 {
+    margin-top: 36px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.mt-34 {
+    margin-top: 34px;
+}
+
+.mt-33 {
+    margin-top: 32px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mt-31 {
+    margin-top: 31px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-29 {
+    margin-top: 29px;
+}
+
+.mt-28 {
+    margin-top: 28px;
+}
+
+.mt-27 {
+    margin-top: 27px;
+}
+
+.mt-26 {
+    margin-top: 26px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-21 {
+    margin-top: 21px;
+}
+
+.mt-22 {
+    margin-top: 22px;
+}
+
+.mt-23 {
+    margin-top: 23px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-18 {
+    margin-top: 18px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-14 {
+    margin-top: 14px;
+}
+
+.mt-13 {
+    margin-top: 13px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mt-11 {
+    margin-top: 11px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-6 {
+    margin-top: 6px;
+}
+
+.mt-4p5 {
+    margin-top: 4.5px;
+}
+/*=========== Margin Bottom ===========*/
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-110 {
+    margin-bottom: 110px;
+}
+
+.mb-160 {
+    margin-bottom: 160px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.b-50 {
+    bottom: 50px;
+}
+
+.b-30 {
+    bottom: 30px;
+}
+/*================ Margin-Left ===================*/
+
+
+.ml--4 {
+    margin-left: -4%;
+}
+
+.ml-32 {
+    margin-left: 32px;
+}
+
+.ml-77 {
+    margin-left: 77%;
+}
+
+.ml-37 {
+    margin-left: 37%;
+}
+
+.ml-36 {
+    margin-left: 36px;
+}
+
+
+.ml-24 {
+    margin-left: 24%;
+}
+
+.ml-23 {
+    margin-left: 23%;
+}
+
+/*================ Padding-Top ===================*/
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.p-31 {
+    padding: 0 31px !important;
+}
+
+
+
+/*======= Some Commen Styling ======*/
+
+.email-style {
+    text-decoration: none;
+    color: #999999;
+}
+
+    .email-style:hover {
+        text-decoration: none;
+        color: #999999;
+    }
+
+button:focus {
+    outline: none;
+    outline: none;
+}
+
+.Btn_cont {
+    position: absolute;
+    left: 882px;
+    top: 3192px;
+    z-index: 264;
+}
+
+
+
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+
+/*------ Scrolling Css --------*/
+#about .about-bg-banner {
+    height: 432px;
+    overflow: auto;
+}
+    /* width */
+    #about .about-bg-banner::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    /* Track */
+    #about .about-bg-banner::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px #161618;
+        border-radius: 20px;
+    }
+
+    /* Handle */
+    #about .about-bg-banner::-webkit-scrollbar-thumb {
+        background: #161618;
+        border-radius: 20px;
+    }
+
+        /* Handle on hover */
+        #about .about-bg-banner::-webkit-scrollbar-thumb:hover {
+            background: #161618;
+        }
+/*------ Scrolling Css --------*/
+#service .comments-space {
+    height: 180px;
+    overflow: auto;
+}
+    /* width */
+    #service .comments-space::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    /* Track */
+    #service .comments-space::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 2px #ffffff;
+        border-radius: 20px;
+    }
+
+    /* Handle */
+    #service .comments-space::-webkit-scrollbar-thumb {
+        background: #ffffff;
+        border-radius: 20px;
+    }
+
+        /* Handle on hover */
+        #service .comments-space::-webkit-scrollbar-thumb:hover {
+            background: #ffffff;
+        }
+
+/*-------------------------------------------*/
+#news .comments-spaces {
+    height: 96px;
+    overflow: auto;
+}
+    /* width */
+    #news .comments-spaces::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    /* Track */
+    #news .comments-spaces::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 2px #161618;
+        border-radius: 20px;
+    }
+
+    /* Handle */
+    #news .comments-spaces::-webkit-scrollbar-thumb {
+        background: #161618;
+        border-radius: 20px;
+    }
+
+        /* Handle on hover */
+        #news .comments-spaces::-webkit-scrollbar-thumb:hover {
+            background: #161618;
+        }
+
+/*================ Media Query ===============*/
+@media screen and (max-width: 1550px) {
+}
+
+@media screen and (max-width: 1367px) {
+}
+
+@media screen and (max-width: 1260px) {
+}
+
+@media screen and (max-width: 1024px) {
+    .hello-text {
+        font-size: 24px;
+    }
+
+    #home .main-banner-text {
+        font-size: 40px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 16px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 17px;
+    }
+
+    .content-setting {
+        padding: 170px 0 0 0;
+    }
+
+    .btn-contact {
+        height: 69px;
+    }
+
+    .head-text {
+        font-size: 20px;
+    }
+
+    .heading-text {
+        font-size: 26px;
+    }
+
+    .about-desc-text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .about-heading {
+        font-size: 18px;
+    }
+
+    .men-height {
+        height: 37vh;
+    }
+
+    .section-head-text {
+        font-size: 20px;
+    }
+
+    .section-heading-text {
+        font-size: 26px;
+    }
+
+    .section-about-desc-text {
+        font-size: 16px;
+    }
+
+    .service-heading {
+        font-size: 20px;
+    }
+
+    .service-desc {
+        font-size: 16px;
+    }
+
+    .read-text {
+        font-size: 16px;
+    }
+
+    #service [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 50px;
+    }
+
+    .card-heading {
+        font-size: 15px;
+    }
+
+    .continue-text {
+        font-size: 13px;
+    }
+
+    .client-saying {
+        font-size: 16px;
+    }
+
+    .client-name {
+        font-size: 24px;
+    }
+
+    .appoint-text {
+        font-size: 30px;
+    }
+
+    .appoint-desc {
+        font-size: 18px;
+        line-height: 27.9px;
+    }
+
+    .phone-text {
+        font-size: 24px;
+    }
+
+    .btn-send {
+        font-size: 18px;
+    }
+
+    .media-mt {
+        margin-top: 20px;
+    }
+
+    #footer {
+        padding: 38px 0 26px 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-toggler {
+        border: 1px solid #ffffff;
+        border-radius: 0rem;
+    }
+
+    .nav-item {
+        padding: 5px 20px 5px 20px;
+    }
+
+    .hello-text {
+        font-size: 20px;
+    }
+
+    #home .main-banner-text {
+        font-size: 35px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 15px;
+    }
+
+    .mt-35 {
+        margin-top: 14px;
+    }
+
+    .btn-contact {
+        height: 54px;
+        line-height: 37px;
+    }
+
+        .btn-contact:hover {
+            width: 200px;
+            height: 64px;
+            line-height: 52px;
+        }
+
+            .btn-contact:hover:after {
+                bottom: 29px;
+            }
+
+        .btn-contact:after {
+            bottom: 26px;
+        }
+
+    .content-setting {
+        padding: 105px 0 0 0;
+    }
+
+    .btn-contact {
+        font-size: 18px;
+    }
+
+    .men-height {
+        height: 49vh;
+    }
+
+    .section-heading-text {
+        font-size: 22px;
+    }
+
+    .section-about-desc-text {
+        font-size: 14px;
+    }
+
+    .section-head-text {
+        font-size: 18px;
+    }
+
+    #client .owl-carousel .owl-nav button.owl-next {
+        right: -84px;
+    }
+
+    .heading-text {
+        font-size: 23px;
+    }
+
+    .about-desc-text {
+        font-size: 14px;
+    }
+
+    #contact .flaticon-phone-receiver:before {
+        margin-left: 201px;
+    }
+
+    #client .flaticon-back-1:before {
+        font-size: 17px;
+        padding: 9px;
+    }
+
+    #client .flaticon-next-1:before {
+        font-size: 17px;
+        padding: 9px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .navbar {
+        padding: 13px 0px 13px 13px;
+    }
+
+    .content-setting {
+        padding: 27px 0 0 0;
+    }
+
+    #home .main-banner-text {
+        font-size: 22px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 12px;
+    }
+
+    .hello-text {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        height: 44px;
+        width: 86px;
+        line-height: 29px;
+    }
+
+        .btn-contact:after {
+            bottom: 20px;
+        }
+
+        .btn-contact:hover {
+            width: 142px;
+            height: 47px;
+            line-height: 33px;
+        }
+
+            .btn-contact:hover:after {
+                bottom: 21px;
+                width: 13%;
+            }
+
+    .men-height {
+        height: 80vh;
+    }
+
+    .banner-container {
+        width: 100%;
+        height: 49vh;
+    }
+
+    #client .owl-carousel .owl-nav button.owl-prev {
+        left: 31%;
+        bottom: -60px;
+    }
+
+    #client .owl-carousel .owl-nav button.owl-next {
+        right: 31%;
+        bottom: -60px;
+    }
+
+    #contact .flaticon-phone-receiver:before {
+        margin-left: 68px;
+    }
+
+    .appoint-desc {
+        font-size: 17px;
+        line-height: 27.9px;
+    }
+
+    .appoint-text {
+        font-size: 26px;
+    }
+
+    .phone-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 411px) {
+}
+
+@media screen and (max-width: 376px) {
+    .banner-container {
+        width: 100%;
+        height: 49vh;
+    }
+
+    .men-height {
+        height: 56vh;
+    }
+
+    .content-setting {
+        padding: 60px 0 0 0;
+    }
+
+    .appoint-desc {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    #contact .flaticon-phone-receiver:before {
+        margin-left: 54px;
+    }
+
+    .heading-text {
+        font-size: 21px;
+    }
+}
+/*==================== Media Query For Land Scape Mode =====================*/
+@media screen and (max-width:1367px ) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 1280px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    .men-height {
+        height: 66vh;
+    }
+
+    .media-mt {
+        margin-top: 20px;
+    }
+
+    #footer {
+        padding: 38px 0 26px 0;
+    }
+}
+
+@media screen and (max-width: 824px) and (orientation: landscape) {
+    .content-setting {
+        padding: 70px 0 0 0;
+    }
+
+    .navbar-toggler {
+        border: 1px solid #ffffff;
+        border-radius: 0rem;
+    }
+
+    .btn-contact {
+        height: 54px;
+        line-height: 37px;
+    }
+
+        .btn-contact:hover {
+            width: 200px;
+            height: 64px;
+            line-height: 52px;
+        }
+
+            .btn-contact:hover:after {
+                bottom: 29px;
+            }
+
+        .btn-contact:after {
+            bottom: 26px;
+        }
+
+    .men-height {
+        height: 119vh;
+    }
+
+    #contact .flaticon-phone-receiver:before {
+        margin-left: 226px;
+    }
+}
+
+@media screen and (max-width: 812px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 740px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 736px) and (orientation: landscape) {
+    .content-setting {
+        padding: 120px 0 0 0;
+    }
+
+    .men-height {
+        height: 170vh;
+    }
+
+    #news .comments-spaces {
+        height: 102px;
+    }
+
+    .client-saying {
+        font-size: 14px;
+    }
+
+    #contact .flaticon-phone-receiver:before {
+        margin-left: 143px;
+    }
+}
+
+@media screen and (max-width: 732px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 668px) and (orientation: landscape) {
+    .content-setting {
+        padding: 70px 0 0 0;
+    }
+
+    #client .owl-carousel .owl-nav button.owl-next {
+        right: -43px;
+    }
+
+    #client .owl-carousel .owl-nav button.owl-prev {
+        left: -69px;
+    }
+
+    .appoint-desc {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 641px) and (orientation: landscape) {
+    .men-height {
+        height: 210vh;
+    }
+}

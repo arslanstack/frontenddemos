@@ -1,0 +1,114 @@
+#contact{
+    .contact-bg-color{
+        padding: 55px 0;
+        border: 1px solid $secondary-color;
+        background-color: rgba(55, 55, 55,.5); 
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+    .contact-info-text{
+        font-size: 24px;
+        margin-bottom: 0;
+        color: $secondary-color;
+        font-family: $secondary-font-reg;
+        
+    }
+    .contact-info-text a{
+        font-size: 24px;
+        margin-bottom: 0;
+        color: $secondary-color !important;
+        font-family: $secondary-font-reg;
+        
+        @include un-decorate;
+    }
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 28px;
+        font-style: normal;
+        margin-left: 0px;
+        color: $secondary-color;
+        
+    }
+    ::placeholder{
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #9b9b9b;    
+        font-family: $primary-font-light;
+    }
+    .input-field{ 
+        width: 100%;
+        height: 53px;
+        font-size: 14px;
+        color: #9b9b9b;padding: 18px;
+        font-family: $primary-font-light;
+        border: 2px solid #acacac;
+        background: transparent;
+    }
+    .text-area{
+        width: 100%;
+        height: auto;
+        resize: none;
+        font-size: 14px;
+        color: #9b9b9b;padding: 18px;
+        font-family: $primary-font-light;
+        border: 2px solid #acacac;
+        background: transparent;
+    }
+    .btn-submit{
+        width: 49px;
+        height: 46px;
+        border-radius:0;
+        border: 1px solid  $secondary-color;
+        background-color:$primary-color;
+        box-shadow: 1px 1.732px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-border-radius:0;
+        -moz-border-radius:0;
+        -ms-border-radius:0;
+        -o-border-radius:0;
+    }
+    .flaticon-airplane:before {
+        content: "\f100";
+        font-size: 22px;
+        font-style: normal;
+        margin-left: 0px;
+        color: #e69f45;
+    }
+    .btn-postion{
+        position: absolute;
+        bottom: 24px;
+        right: 21px;
+    }
+    #footer{
+        position: relative;
+        background: #373737;
+        padding: 30px;
+        
+    }
+    #footer::before{
+        content: '';
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: absolute;
+        border:2px solid $secondary-color;
+    }
+    #footer::after{
+        content: '';
+        width: 100%;
+        left: 0;
+        bottom: 4px;
+        position: absolute;
+        border:2px solid $secondary-color;
+    }
+    
+    .footer-font{
+        font-size: 22px;
+        color: $white-color;
+        font-family: $primary-font-light;
+    }
+    .right-font{
+        font-size: 18px;
+        color: $secondary-color;text-transform: uppercase;
+        font-family: $primary-font-med;
+    }
+    
+}

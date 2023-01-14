@@ -1,0 +1,82 @@
+/*================================= 
+Home Section Styling
+=================================*/
+#home {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	.main-banner-text {
+		font-size: 45px;
+		color: $light-color;
+		font-family: $primary-font;
+		text-align: left;
+		font-weight: 700;
+		text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+	}
+	
+	.main-banner-desc {
+		font-size: 18px;
+		color: $light-color;
+		font-weight: 400;
+		text-align: left;
+		font-family: $primary-font;
+	}
+	.content-setting {
+		padding: 198px 0 118px 0;
+	}
+	%btn-shared {
+		width: 139px;
+		height: 47px;
+		line-height: 34px;
+		border-radius: 23px;
+		color: $light-color;
+		font-weight: 400;
+		text-transform: uppercase;
+		font-family: $primary-font;
+		background-color: $secondary-color;
+		box-shadow: 0.105px 2.998px 1px 0px rgba(0, 0, 0, 0.5);
+	}
+	.btn-team {
+		@include border-style;
+		@extend %btn-shared;
+	}
+	.btn-blog {
+		@include border-style;
+		@extend %btn-shared;
+	}
+	.owl-carousel .owl-stage {
+		padding-bottom: 41px;
+	}
+	
+	.owl-theme .owl-dots .owl-dot.active span,
+	.owl-theme .owl-dots .owl-dot:hover span {
+		border: 3px solid $secondary-color;
+		border-radius: 50%;
+		width: 18px;
+		height: 18px;
+		transition: all 0.2s ease-in-out;
+		transform: scale(1.2);
+		background-color: $light-color;
+		-webkit-transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		-ms-transform: scale(1.2);
+		-o-transform: scale(1.2);
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+	}
+	
+	.owl-theme .owl-dots .owl-dot span {
+		border: 3px solid #574444;
+		border-radius: 50%;
+		background-color: $light-color;
+		width: 18px;
+		height: 18px;
+	}
+	.owl-theme .owl-nav.disabled + .owl-dots {
+		position: relative;
+		margin-top: 50px;
+		top: -112px;
+	}
+}

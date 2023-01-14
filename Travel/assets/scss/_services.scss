@@ -1,0 +1,61 @@
+#services {
+	.service-card {
+		padding: 36px 20px;
+		border: 1px solid $secondary-color;
+		background-color: rgba(55, 55, 55, 0.55);
+		box-shadow: 2.5px 4.33px 10px 0px rgba(0, 0, 0, 0.75);
+		&:hover {
+			background-color: $primary-color;
+		}
+	}
+	.service-heading {
+		@include rfs(26px);
+		color: $secondary-color;
+		font-family: $third-font;
+	}
+	.service-desc {
+		font-size: 18px;
+		text-align: center;
+		color: $white-color;
+		font-family: $primary-font-reg;
+	}
+
+	.outer-border {
+		width: 71px;
+		height: 71px;
+		padding: 10px;
+		border: 1px solid $secondary-color;
+		background-color: rgb(29, 29, 29);
+		box-shadow: 1px 1.732px 5px 0px rgba(0, 0, 0, 0.75);
+	}
+
+	[class^="flaticon-"]:before,
+	[class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after,
+	[class*=" flaticon-"]:after {
+		font-family: Flaticon;
+		color: $secondary-color;
+		margin-left: 0;
+		font-size: 34px;
+	}
+
+	.no-display {
+		display: none;
+	}
+	.bnt-load-more {
+		width: 193px;
+		height: 72px;
+		font-size: 18px;
+		color: $primary-color;
+		border-radius: 0;
+		text-transform: uppercase;
+		font-family: $primary-font-reg;
+		border: 1px solid $primary-color;
+		background-color: $secondary-color;
+		box-shadow: 1.5px 2.598px 5px 0px rgba(0, 0, 0, 0.75);
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		-ms-border-radius: 0;
+		-o-border-radius: 0;
+	}
+}

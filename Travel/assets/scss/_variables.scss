@@ -1,0 +1,88 @@
+// variables
+$primary-color: #1b1b1b;
+$secondary-color: #e69f45;
+$white-color: #ffffff;
+$light-color: #f2f2f2;
+$tag-color: #282828;
+// $service-color:#373737;
+
+$primary-font-reg: "heronsans-regular";
+$primary-font-semi: "heronsans-semibold";
+$primary-font-bold: "heronsans-bold";
+$primary-font-light: "heronsans-light";
+$primary-font-med: "heronsans-medium";
+$secondary-font-bold: "droid-bold";
+$secondary-font-reg: "droid-regular";
+$third-font: "plant-cherokee";
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: $primary-color;
+	overflow-x: hidden;
+}
+@font-face {
+	font-family: "droid-bold";
+	src: url(/assets/font-family/DroidSerif-Bold.ttf);
+}
+@font-face {
+	font-family: "droid-regular";
+	src: url(/assets/font-family/DroidSerif-Regular.ttf);
+}
+@font-face {
+	font-family: "heronsans-bold";
+	src: url(/assets/font-family/HeronSans-Bold.otf);
+}
+@font-face {
+	font-family: "heronsans-light";
+	src: url(/assets/font-family/HeronSans-Light.otf);
+}
+@font-face {
+	font-family: "heronsans-medium";
+	src: url(/assets/font-family/HeronSans-Medium.otf);
+}
+@font-face {
+	font-family: "heronsans-regular";
+	src: url(/assets/font-family/HeronSans-Regular.otf);
+}
+@font-face {
+	font-family: "heronsans-semibold";
+	src: url(/assets/font-family/HeronSans-SemiBold.otf);
+}
+@font-face {
+	font-family: "plant-cherokee";
+	src: url(/assets/font-family/Plantagenet_Cherokee.ttf);
+}
+
+//@mixin
+
+@mixin un-decorate {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}
+@mixin bg-img-banners {
+	padding: 99px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+%btn-shared {
+	width: 193px;
+	height: 72px;
+	font-size: 20px;
+	line-height: 59px;
+	text-transform: uppercase;
+	font-family: $primary-font-reg;
+	border: 1px solid $secondary-color;
+	border-radius: 0;
+	box-shadow: 1.5px 2.598px 5px 0px rgba(0, 0, 0, 0.75);
+	@include un-decorate;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+}

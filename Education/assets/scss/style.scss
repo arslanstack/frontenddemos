@@ -1,0 +1,661 @@
+@import "variables";
+@import "commen-style";
+@import "navbar";
+@import "hero";
+@import "about";
+@import "courses";
+@import "blog";
+@import "team";
+@import "contact";
+@import "media-quries";
+
+// Poly Fills classes
+
+/*=================================
+Read More Styling
+=================================*/
+.comments-space {
+	margin-bottom: 0;
+	text-align: left;
+}
+
+.comments-spaces {
+	text-align: left;
+}
+
+.comments-spacess {
+	text-align: center;
+}
+
+.remaining-contents span {
+	display: none;
+}
+
+/*=================== Custome Margins ===================*/
+.t-8 {
+	right: -133px;
+	top: -1px;
+}
+
+.ml-9 {
+	margin-left: 2.5rem;
+}
+
+.mt-35-p {
+	margin-top: 35%;
+}
+
+.mt--180 {
+	margin-top: -180px;
+}
+
+.mt--375 {
+	margin-top: -375px;
+}
+
+.mt--117 {
+	margin-top: -117px;
+}
+
+.mt--100 {
+	margin-top: -100px;
+}
+
+.mt--95 {
+	margin-top: -95px;
+}
+
+.mt--90 {
+	margin-top: -90px;
+}
+
+.mt--60 {
+	margin-top: -60px;
+}
+
+.mt--55 {
+	margin-top: -55px;
+}
+
+.mt--48 {
+	margin-top: -48px;
+}
+
+.mt--44 {
+	margin-top: -44px;
+}
+
+.mt--22 {
+	margin-top: -22px;
+}
+
+.mt--13 {
+	margin-top: -13px;
+}
+
+.mt--9 {
+	margin-top: -9px;
+}
+
+.mt--7 {
+	margin-top: -7px;
+}
+
+.mt-360 {
+	margin-top: 360px;
+}
+
+.mt-300 {
+	margin-top: 300px;
+}
+
+.mt-290 {
+	margin-top: 290px;
+}
+
+.mt-280 {
+	margin-top: 280px;
+}
+
+.mt-270 {
+	margin-top: 270px;
+}
+
+.mt-260 {
+	margin-top: 260px;
+}
+
+.mt-250 {
+	margin-top: 250px;
+}
+
+.mt-240 {
+	margin-top: 240px;
+}
+
+.mt-230 {
+	margin-top: 230px;
+}
+
+.mt-200 {
+	margin-top: 200px;
+}
+
+.mt-180 {
+	margin-top: 180px;
+}
+
+.mt-170 {
+	margin-top: 170px;
+}
+
+.mt-160 {
+	margin-top: 160px;
+}
+
+.mt-150 {
+	margin-top: 150px;
+}
+
+.mt-140 {
+	margin-top: 140px;
+}
+
+.mt-130 {
+	margin-top: 130px;
+}
+
+.mt-120 {
+	margin-top: 120px;
+}
+
+.mt-115 {
+	margin-top: 115px;
+}
+
+.mt-110 {
+	margin-top: 110px;
+}
+
+.mt-108 {
+	margin-top: 108px;
+}
+
+.mt-106 {
+	margin-top: 106px;
+}
+
+.mt-105 {
+	margin-top: 105px;
+}
+
+.mt-102 {
+	margin-top: 102px;
+}
+
+.mt-101 {
+	margin-top: 101px;
+}
+
+.mt-100 {
+	margin-top: 100px;
+}
+
+.mt-99 {
+	margin-top: 99px;
+}
+
+.mt-98 {
+	margin-top: 98px;
+}
+
+.mt-97 {
+	margin-top: 97px;
+}
+
+.mt-96 {
+	margin-top: 96px;
+}
+
+.mt-95 {
+	margin-top: 95px;
+}
+
+.mt-94 {
+	margin-top: 94px;
+}
+
+.mt-93 {
+	margin-top: 93px;
+}
+
+.mt-92 {
+	margin-top: 92px;
+}
+
+.mt-91 {
+	margin-top: 91px;
+}
+
+.mt-90 {
+	margin-top: 90px;
+}
+
+.mt-89 {
+	margin-top: 89px;
+}
+
+.mt-88 {
+	margin-top: 88px;
+}
+
+.mt-87 {
+	margin-top: 87px;
+}
+
+.mt-86 {
+	margin-top: 86px;
+}
+
+.mt-85 {
+	margin-top: 85px;
+}
+
+.mt-84 {
+	margin-top: 84px;
+}
+
+.mt-83 {
+	margin-top: 83px;
+}
+
+.mt-82 {
+	margin-top: 82px;
+}
+
+.mt-81 {
+	margin-top: 81px;
+}
+
+.mt-80 {
+	margin-top: 80px;
+}
+
+.mt-75 {
+	margin-top: 75px;
+}
+
+.mt-74 {
+	margin-top: 74px;
+}
+
+.mt-73 {
+	margin-top: 73px;
+}
+
+.mt-70 {
+	margin-top: 70px;
+}
+
+.mt-68 {
+	margin-top: 68px;
+}
+
+.mt-65 {
+	margin-top: 65px;
+}
+
+.mt-64 {
+	margin-top: 64px;
+}
+
+.mt-63 {
+	margin-top: 63px;
+}
+
+.mt-62 {
+	margin-top: 62px;
+}
+
+.mt-61 {
+	margin-top: 61px;
+}
+
+.mt-60 {
+	margin-top: 60px;
+}
+
+.mt-59 {
+	margin-top: 59px;
+}
+
+.mt-58 {
+	margin-top: 58px;
+}
+
+.mt-57 {
+	margin-top: 57px;
+}
+
+.mt-56 {
+	margin-top: 56px;
+}
+
+.mt-55 {
+	margin-top: 55px;
+}
+
+.mt-54 {
+	margin-top: 54px;
+}
+
+.mt-53 {
+	margin-top: 53px;
+}
+
+.mt-52 {
+	margin-top: 52px;
+}
+
+.mt-51 {
+	margin-top: 51px;
+}
+
+.mt-50 {
+	margin-top: 50px;
+}
+
+.mt-49 {
+	margin-top: 49px;
+}
+
+.mt-48 {
+	margin-top: 48px;
+}
+
+.mt-47 {
+	margin-top: 47px;
+}
+
+.mt-46 {
+	margin-top: 46px;
+}
+
+.mt-45 {
+	margin-top: 45px;
+}
+
+.mt-44 {
+	margin-top: 44px;
+}
+
+.mt-43 {
+	margin-top: 43px;
+}
+
+.mt-42 {
+	margin-top: 42px;
+}
+
+.mt-41 {
+	margin-top: 41px;
+}
+
+.mt-40 {
+	margin-top: 40px;
+}
+
+.mt-39 {
+	margin-top: 39px;
+}
+
+.mt-38 {
+	margin-top: 38px;
+}
+
+.mt-37 {
+	margin-top: 37px;
+}
+
+.mt-36 {
+	margin-top: 36px;
+}
+
+.mt-35 {
+	margin-top: 35px;
+}
+
+.mt-34 {
+	margin-top: 34px;
+}
+
+.mt-33 {
+	margin-top: 32px;
+}
+
+.mt-32 {
+	margin-top: 32px;
+}
+
+.mt-31 {
+	margin-top: 31px;
+}
+
+.mt-30 {
+	margin-top: 30px;
+}
+
+.mt-29 {
+	margin-top: 29px;
+}
+
+.mt-28 {
+	margin-top: 28px;
+}
+
+.mt-27 {
+	margin-top: 27px;
+}
+
+.mt-26 {
+	margin-top: 26px;
+}
+
+.mt-25 {
+	margin-top: 25px;
+}
+
+.mt-21 {
+	margin-top: 21px;
+}
+
+.mt-22 {
+	margin-top: 22px;
+}
+
+.mt-23 {
+	margin-top: 23px;
+}
+
+.mt-24 {
+	margin-top: 24px;
+}
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+.mt-19 {
+	margin-top: 19px;
+}
+
+.mt-18 {
+	margin-top: 18px;
+}
+
+.mt-17 {
+	margin-top: 17px;
+}
+
+.mt-16 {
+	margin-top: 16px;
+}
+
+.mt-15 {
+	margin-top: 15px;
+}
+
+.mt-14 {
+	margin-top: 14px;
+}
+
+.mt-13 {
+	margin-top: 13px;
+}
+
+.mt-12 {
+	margin-top: 12px;
+}
+
+.mt-11 {
+	margin-top: 11px;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+.mt-9 {
+	margin-top: 9px;
+}
+
+.mt-8 {
+	margin-top: 8px;
+}
+
+.mt-7 {
+	margin-top: 7px;
+}
+
+.mt-6 {
+	margin-top: 6px;
+}
+
+.mt-4p5 {
+	margin-top: 4.5px;
+}
+/*=========== Margin Bottom ===========*/
+.mb-100 {
+	margin-bottom: 100px;
+}
+
+.mb-110 {
+	margin-bottom: 110px;
+}
+
+.mb-160 {
+	margin-bottom: 160px;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.b-50 {
+	bottom: 50px;
+}
+
+.b-30 {
+	bottom: 30px;
+}
+/*================ Margin-Left ===================*/
+
+.ml--4 {
+	margin-left: -4%;
+}
+
+.ml-32 {
+	margin-left: 32px;
+}
+
+.ml-77 {
+	margin-left: 77%;
+}
+
+.ml-37 {
+	margin-left: 37%;
+}
+
+.ml-36 {
+	margin-left: 36px;
+}
+
+.ml-24 {
+	margin-left: 24%;
+}
+
+.ml-23 {
+	margin-left: 23%;
+}
+
+/*================ Padding-Top ===================*/
+.pt-120 {
+	padding-top: 120px;
+}
+
+.pt-100 {
+	padding-top: 100px;
+}
+
+.p-31 {
+	padding: 0 31px !important;
+}
+
+/*======= Some Commen Styling ======*/
+
+button:focus {
+	outline: none;
+	outline: none;
+}
+
+.btn:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+:focus {
+	outline: -webkit-focus-ring-color auto 0px;
+}
+
+.btn:focus,
+.btn.focus {
+	outline: 0;
+	box-shadow: none !important;
+}
+
+/*------ Scrolling Css --------*/
+#about .comments-space {
+	height: 455px;
+	overflow: auto;
+}
+/* width */
+#about .comments-space::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+#about .comments-space::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px #161618;
+	border-radius: 20px;
+}
+
+/* Handle */
+#about .comments-space::-webkit-scrollbar-thumb {
+	background: #161618;
+	border-radius: 20px;
+}
+
+/* Handle on hover */
+#about .comments-space::-webkit-scrollbar-thumb:hover {
+	background: #161618;
+}

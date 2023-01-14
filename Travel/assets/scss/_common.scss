@@ -1,0 +1,27 @@
+/*================================= 
+Common Section Styling
+=================================*/
+.air-style {
+	height: 27px;
+	width: auto;
+}
+.heading-tag {
+	font-size: 20px;
+	margin-top: 0px;
+	margin-left: 8px;
+	margin-right: 8px;
+	color: #f2f2f2;
+	text-transform: capitalize;
+	font-family: "heronsans-light";
+}
+.heading-text {
+	@include rfs(36px);
+	color: $secondary-color;
+	text-transform: capitalize;
+	font-family: $secondary-font-reg;
+}
+.heading-desc {
+	font-size: 19px;
+	color: $light-color;
+	font-family: $primary-font-light;
+}

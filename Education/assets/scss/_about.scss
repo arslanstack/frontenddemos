@@ -1,0 +1,68 @@
+#about {
+	.about-heading {
+		font-size: 28px;
+		color: $primary-color;
+		font-weight: 600;
+		font-family: $primary-font;
+	}
+	.about-bg-banner {
+		padding: 24px 24px 16px 24px;
+		background: #f3f3f3;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.55);
+	}
+	.dot-circle {
+		width: 35px;
+		height: 35px;
+		font-size: 18px;
+		color: $light-color;
+		font-weight: 600;
+		padding: 2px 12px 0 11px;
+		font-family: $primary-font;
+		border: 2px solid $secondary-color;
+		border-radius: 50%;
+		background-image: -moz-linear-gradient(90deg, rgb(48, 181, 230) 0%, rgb(45, 231, 238) 100%);
+		background-image: -webkit-linear-gradient(90deg, rgb(48, 181, 230) 0%, rgb(45, 231, 238) 100%);
+		background-image: -ms-linear-gradient(90deg, rgb(48, 181, 230) 0%, rgb(45, 231, 238) 100%);
+		box-shadow: 1px 1.732px 5px 0px rgba(0, 0, 0, 0.75);
+	}
+	.about-text {
+		line-height: 35px;
+		font-size: 18px;
+		color: $secondary-color;
+		font-weight: 500;
+		margin-bottom: 0;
+		font-family: $primary-font;
+	}
+	.info-bg-banner {
+		padding: 20px 68px 1px 68px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.info-desc {
+		font-size: 26px;
+		color: #f5f5f5;
+		font-weight: 600;
+		line-height: 70px;
+		text-shadow: 1.5px 2.598px 3px rgba(0, 0, 0, 0.75);
+		font-family: $primary-font;
+	}
+
+	.btn-subscribe {
+		@include border-style;
+		width: 236px;
+		height: 66px;
+		font-size: 22px;
+		color: $light-color;
+		font-weight: 500;
+		line-height: 52px;
+		text-transform: uppercase;
+		font-family: $primary-font;
+		border-radius: 32px;
+		background-color: $secondary-color;
+		box-shadow: 0.105px 2.998px 1px 0px rgba(0, 0, 0, 0.5);
+	}
+}

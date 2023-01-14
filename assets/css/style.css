@@ -1,0 +1,403 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+.click-text {
+  font-size: 13px;
+  right: 18px;
+  top: 9px;
+  color: #1f1f1f;
+  position: absolute;
+  text-decoration: underline;
+  font-family: 'Poppins', sans-serif;
+  display: none;
+
+}
+
+.main-theme-card:hover .click-text {
+  display: block;
+}
+
+.theme-link:hover .education {
+  background: #0099DC;
+}
+
+.theme-link:hover .education h2 {
+  color: #ffffff;
+}
+
+.theme-link:hover .flaticon-mortarboard:before {
+  color: #ffffff;
+}
+
+.theme-link:hover .education .click-text {
+  color: #ffffff;
+}
+
+.theme-link:hover .cv {
+  background: #FFC935;
+}
+
+.theme-link:hover .cv h2 {
+  color: #ffffff;
+}
+
+.theme-link:hover .flaticon-approved:before {
+  color: #ffffff;
+}
+
+.theme-link:hover .cv .click-text {
+  color: #ffffff;
+}
+
+.theme-link:hover .law-office {
+  background: #161618;
+}
+
+.theme-link:hover .law-office h2 {
+  color: #ffffff;
+}
+
+.theme-link:hover .flaticon-law:before {
+  color: #ffffff;
+}
+
+.theme-link:hover .law-office .click-text {
+  color: #ffffff;
+}
+
+.theme-link:hover .healthfitness {
+  background: #831112;
+}
+
+.theme-link:hover .healthfitness h2 {
+  color: #ffffff;
+}
+
+.theme-link:hover .flaticon-meditation:before {
+  color: #ffffff;
+}
+
+.theme-link:hover .healthfitness .click-text {
+  color: #ffffff;
+}
+
+.theme-link:hover .healthbeauty {
+  background: #FDB210;
+}
+
+.theme-link:hover .healthbeauty h2 {
+  color: #ffffff;
+}
+
+.theme-link:hover .healthbeauty .click-text {
+  color: #ffffff;
+}
+
+.theme-link:hover .flaticon-cream:before {
+  color: #ffffff;
+}
+
+.theme-link:hover .professional h2 {
+  color: #ffffff;
+}
+
+.theme-link:hover .professional {
+  background: #539FE3;
+}
+
+.theme-link:hover .professional h2 {
+  color: #ffffff;
+}
+
+.theme-link:hover .flaticon-suitcase:before {
+  color: #ffffff;
+}
+
+.theme-link:hover .travel {
+  background: #1B1B1B;
+}
+
+.theme-link:hover .travel h2 {
+  color: #ffffff;
+}
+
+.theme-link:hover .flaticon-destination:before {
+  color: #ffffff;
+}
+
+.theme-link:hover .travel .click-text {
+  color: #ffffff;
+}
+
+.theme-link:hover .religious {
+  background: #00A19B;
+}
+
+.theme-link:hover .religious h2 {
+  color: #ffffff;
+}
+
+.theme-link:hover .flaticon-church:before {
+  color: #ffffff;
+}
+
+.theme-link:hover .religious .click-text {
+  color: #ffffff;
+}
+
+.theme-link:hover .land {
+  background: #F6428B;
+}
+
+.theme-link:hover .land h2 {
+  color: #ffffff;
+}
+
+.theme-link:hover .flaticon-sunset:before {
+  color: #ffffff;
+}
+
+.theme-link:hover .land .click-text {
+  color: #ffffff;
+}
+
+.theme-link:hover .medical {
+  background: #E12E45;
+}
+
+.theme-link:hover .medical h2 {
+  color: #ffffff;
+}
+
+.theme-link:hover .flaticon-doctor:before {
+  color: #ffffff;
+}
+
+.theme-link:hover .medical .click-text {
+  color: #ffffff;
+}
+
+.theme-link:hover .gallery {
+  background: #A2DDEB;
+}
+
+.theme-link:hover .gallery h2 {
+  color: #ffffff;
+}
+
+.theme-link:hover .flaticon-gallery:before {
+  color: #ffffff;
+}
+
+.theme-link:hover .gallery .click-text {
+  color: #ffffff;
+}
+
+
+
+/* .simplebar-scrollbar {
+   width: 5px; 
+}
+
+.simplebar-scrollbar::before {
+  background: rgb(114, 107, 5);
+} */
+
+.preview-text {}
+
+.text-position {
+  font-size: 2.5rem;
+  color: #000000;
+  font-weight: 500;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 33%;
+  z-index: -1;
+  font-family: 'Poppins', sans-serif;
+}
+
+.img-position {
+  position: fixed;
+}
+
+.bg-color {
+  padding: 40px;
+  background: #F3F4F6;
+}
+
+.main-theme-card {
+  margin-bottom: 30px;
+  display: flex;
+  height: auto;
+  width: auto;
+  padding: 20px;
+  background: #ffffff;
+  align-items: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+}
+
+.dis-none {
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+}
+
+.show {
+  visibility: visible;
+  transition: all .5s ease-in-out;
+  opacity: 1;
+  transform: scale(1);
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+.main-theme-card:hover {
+  box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1), inset 0 0 0 0 rgba(0, 0, 0, 0.15);
+}
+
+.theme-link {
+  text-decoration: none;
+}
+
+.theme-link:hover {
+  text-decoration: none;
+}
+
+.img-height {
+  height: 100vh;
+}
+
+.main-category-text {
+  font-size: 24px;
+  color: #000000;
+  font-weight: 500;
+  margin: 0;
+  margin-left: 1.5rem;
+  text-shadow: .6px .6px 1px #1c1c1c;
+  font-family: 'Poppins', sans-serif;
+}
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-style: normal;
+  font-size: 36px;
+  margin-left: 0px;
+  text-shadow: .7px .7px 1px #1c1c1c;
+
+}
+
+.flaticon-mortarboard:before {
+  content: "\f108";
+  color: #000000;
+}
+
+.flaticon-approved:before {
+  content: "\f102";
+  color: #000000;
+}
+
+.flaticon-law:before {
+  content: "\f104";
+  color: #000000;
+}
+
+.flaticon-meditation:before {
+  content: "\f101";
+  color: #000000;
+}
+
+.flaticon-cream:before {
+  content: "\f103";
+  color: #000000;
+}
+
+.flaticon-suitcase:before {
+  content: "\f105";
+  color: #000000;
+}
+
+.flaticon-destination:before {
+  content: "\f10a";
+  color: #000000;
+}
+
+.flaticon-church:before {
+  content: "\f109";
+  color: #000000;
+}
+
+.flaticon-sunset:before {
+  content: "\f106";
+  color: #000000;
+}
+
+.flaticon-doctor:before {
+  content: "\f10b";
+  color: #000000;
+}
+
+.flaticon-gallery:before {
+  content: "\f107";
+  color: #000000;
+}
+
+@media only screen and (max-width:1024px) {
+  .main-category-text {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width:990px) {
+  .media-mt {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width:415px) {
+  .main-category-text {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width:398px) {
+  .main-category-text {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .main-category-text {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+      xmlns="http://www.w3.org/TR/REC-html40"
+>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Account Activation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        /**
+       * Google webfonts. Recommended to include the .woff version for cross-client compatibility.
+       */
+        @media screen {
+            @font-face {
+                font-family: 'Source Sans Pro';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v10/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format('woff');
+            }
+
+            @font-face {
+                font-family: 'Source Sans Pro';
+                font-style: normal;
+                font-weight: 700;
+                src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v10/toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff) format('woff');
+            }
+        }
+
+        /**
+       * Avoid browser level font resizing.
+       * 1. Windows Mobile
+       * 2. iOS / OSX
+       */
+        body,
+        table,
+        td,
+        a {
+            -ms-text-size-adjust: 100%;
+            /* 1 */
+            -webkit-text-size-adjust: 100%;
+            /* 2 */
+        }
+
+        /**
+       * Remove extra space added to tables and cells in Outlook.
+       */
+        table,
+        td {
+            mso-table-rspace: 0pt;
+            mso-table-lspace: 0pt;
+        }
+
+        /**
+       * Better fluid images in Internet Explorer.
+       */
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        /**
+       * Remove blue links for iOS devices.
+       */
+        a[x-apple-data-detectors] {
+            font-family: inherit !important;
+            font-size: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+            color: inherit !important;
+            text-decoration: none !important;
+        }
+
+        /**
+       * Fix centering issues in Android 4.4.
+       */
+        div[style*="margin: 16px 0;"] {
+            margin: 0 !important;
+        }
+
+        body {
+            width: 100% !important;
+            height: 100% !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+
+        /**
+       * Collapse table borders to avoid space between cells.
+       */
+        table {
+            border-collapse: collapse !important;
+        }
+
+        a {
+            color: #1a82e2;
+        }
+
+        img {
+            height: auto;
+            line-height: 100%;
+            text-decoration: none;
+            border: 0;
+            outline: none;
+        }
+
+        .upload_logo_pos {
+            width: 550px;
+            height: 275px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    </style>
+
+</head>
+
+<body style="background-color: #e9ecef;">
+
+<!-- start preheader -->
+<div class="preheader"
+     style="display: none; max-width: 0; max-height: 0; overflow: hidden; font-size: 1px; line-height: 1px; color: #fff; opacity: 0;">
+    Ich habe für Sie ein paar aktuelle Produktinformationen zusammengestellt.
+</div>
+<!-- end preheader -->
+
+<!-- start body -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+    <!-- start logo -->
+    <tr>
+        <td align="center" bgcolor="#e9ecef">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                <tr>
+                    <td align="center" valign="top" width="600">
+            <![endif]-->
+
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <!-- end logo -->
+
+    <!-- start hero -->
+    <tr>
+        <td align="center" bgcolor="#e9ecef">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                <tr>
+                    <td align="center" valign="top" width="600">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" style="max-width: 600px;">
+                <tr>
+                    <td align="left" bgcolor="#ffffff"
+                        style="padding: 36px 24px 0; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; border-top: 3px solid #d4dadf;">
+                        <img th:if="${(imgCompanyLogo != null && !imgCompanyLogo.url.isEmpty())}" th:src="${imgCompanyLogo.url}"  alt=""
+                             style="max-width: 550px; height: auto;" width="550"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" bgcolor="#ffffff"
+                        style="padding: 36px 24px 0; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;">
+                        <h1 style="margin: 0; font-size: 32px; font-weight: 700; letter-spacing: -1px; line-height: 48px;">
+                            <span th:text="${mailHeadline}"></span>
+                        </h1>
+                    </td>
+                </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <!-- end hero -->
+
+    <!-- start copy block -->
+    <tr>
+        <td align="center" bgcolor="#e9ecef">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                <tr>
+                    <td align="center" valign="top" width="600">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+
+                <!-- start copy -->
+                <tr>
+                    <td align="left" bgcolor="#ffffff"
+                        style="padding: 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px;">
+                        <p style="margin: 0;">Hallo und schönen guten Tag <span
+                                th:text="${customer.academicDegreePreceding}"></span> <span
+                                th:text="${customer.firstname}"></span> <span th:text="${customer.lastname}"></span>
+                            <span th:text="${customer.academicDegreeSubsequent}"></span><br>
+
+                            <p>
+                                <span th:text="${mailTextline}"></span>
+                            </p>
+                        </p>
+                    </td>
+                </tr>
+                <!-- end copy -->
+
+                <!-- start button -->
+                <tr bgcolor="white">
+                    <td style="padding: 24px;">
+                        <span>
+                            <table border="0" cellpadding="0" cellspacing="0" style="max-width: 550px;">
+                                <tr>
+                                    <td th:background="${imgProduct.url}" cellpadding="0" cellspacing="0"
+                                        bgcolor="#7bceeb" class="upload_logo_pos" width="550" height="275" valign="middle"
+                                        th:style="'background-image: url(' + ${imgProduct.url} + '); width:550px; height:275px;'"
+                                        th:if="${(imgProduct != null && !imgProduct.url.isEmpty())}">
+                                        <!--[if gte mso 9]>
+                                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:550px;height:275px;">
+                                            <v:fill type="tile" th:src="${imgProduct.url}" color="#7bceeb"/>
+                                        <![endif]-->
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+                                            <tr>
+                                                <td align="center" valign="middle">
+                                                    <a th:href="${productLink}" target="_blank">
+                                                    <img th:if="${(imgPlayBtn != null && !imgPlayBtn.isEmpty())}"
+                                                         th:src="${imgPlayBtn}" alt="${productLink}"
+                                                         style="width: 120px; height: 120px;" width="120" height="120">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!--[if gte mso 9]>
+                                        </v:rect>
+                                        <![endif]-->
+                                    </td>
+                                </tr>
+                            </table>
+                        </span>
+                    </td>
+
+                </tr>
+                <!-- end button -->
+
+                <!-- start copy -->
+                <tr>
+                    <td align="left" bgcolor="#ffffff"
+                        style="padding: 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; border-bottom: 3px solid #d4dadf">
+                        <p style="margin: 0;">
+                            Schöne Grüße <br><br>
+                            <span th:text="${contact.firstName}"></span> <span th:text="${contact.lastName}"></span><br>
+                            <img th:if="${(media != null && !media.url.isEmpty())}" th:src="${media.url}"  alt=""
+                                style="max-width: 220px; height: auto;" width="220"/>
+                        </p>
+                    </td>
+                </tr>
+                <!-- end copy -->
+
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <!-- end copy block -->
+
+    <!-- start footer -->
+    <tr>
+        <td align="center" bgcolor="#e9ecef" style="padding: 24px;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+                <tr>
+                    <td align="center" valign="top" width="600">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+
+                <!-- start permission -->
+                <tr>
+                    <td align="center" bgcolor="#e9ecef"
+                        style="padding: 12px 12px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; color: #666;">
+                        <p style="margin: 0;">
+                            <b>Diese Information wurde von <span th:text="${companyName}"></span> über Dubble versendet.</b><br>
+                            DUBBLE – eine Kommunikations-Plattform der Dubble GmbH, https://www.dubble.eu<br>
+                        </p>
+                    </td>
+                </tr>
+                <!-- end permission -->
+
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <!-- end footer -->
+
+</table>
+<!-- end body -->
+
+</body>
+
+</html>

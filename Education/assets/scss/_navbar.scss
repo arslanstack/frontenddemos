@@ -1,0 +1,81 @@
+/*================================= 
+       Nav Section Styling
+  =================================*/
+.nav-bg-color {
+	animation: smoothScroll 1s forwards;
+	background-color: $secondary-color !important;
+	-webkit-animation: smoothScroll 1s forwards;
+}
+nav {
+	padding: 1rem 1rem !important;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: position 10s;
+	-ms-transition: position 10s;
+	-o-transition: position 10s;
+	transition: all 0.5s ease;
+	.navbar {
+		padding: 1.5rem 1rem;
+	}
+	.nav-setting-on-scroll {
+		padding: 10px 20px !important;
+	}
+
+	.easy-nav-on-scroll {
+		transition: all 0.6s ease-in-out;
+	}
+
+	.nav-item {
+		padding: 0px 10px 0 10px;
+		position: relative;
+	}
+
+	.navbar-brand {
+		display: inline;
+		margin-right: 0;
+	}
+
+	.nav-trans {
+		transition: padding 400ms linear;
+	}
+
+	@keyframes smoothScroll {
+		0% {
+			transform: translateY(-40px);
+		}
+
+		100% {
+			transform: translateY(0px);
+		}
+	}
+
+	.active .nav-link {
+		@include border-style;
+		width: 150px;
+		height: 46px;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		margin: 0 auto;
+		position: relative;
+		font-size: 20px;
+		border-radius: 30px;
+		font-weight: 400;
+		font-family: $primary-font;
+		text-transform: uppercase;
+		background-color: $secondary-color;
+		box-shadow: 0.105px 2.998px 1px 0px rgba(0, 0, 0, 0.5);
+		-webkit-border-radius: 30px;
+		-moz-border-radius: 30px;
+		-ms-border-radius: 30px;
+		-o-border-radius: 30px;
+	}
+
+	.navbar-nav .nav-link {
+		font-size: 20px;
+		color: $light-color;
+		padding: 7px 0px 7px 0px;
+		font-weight: 400;
+		text-transform: uppercase;
+		font-family: $primary-font;
+	}
+}
